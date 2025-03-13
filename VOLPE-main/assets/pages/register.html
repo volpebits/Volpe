@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,44 +8,46 @@
 </head>
 
 <body>
-    <div class="background">
+    <div class="content">
         <header id="dashboard">
-            <!-- <section class="container"> -->
-                <img class="logo" src="../icons/logo 2.png" alt="Volpe">
-                <nav class="menu">
-                    <a class="button" href="./home.html" id="#home">Home</a>
-                    <a class="button" href="./games.html" id="#games">Jogos</a>
-                    <a class="button" href="./about.html" id="#about">Sobre-Nós</a>
-                    <img src="../icons/plant-04.png" alt="flower">0
-                    <a class="button" href="./register.html" id="#register"><img src="../icons/seta.png" alt="one arrow">Cadastra-se</a>
+            <nav class="menu">
+                <div id="imgholder"><img class="logo" src="../icons/logo 2.png" alt="Volpe"></div>
+                    <a class="button" href="./home.html">Home</a>
+                    <a class="button" href="./games.html">Jogos</a>
+                    <a class="button" href="./about.html" >Sobre-Nós</a>
                 </nav>
-            </section>
         </header>
-        <main>
+        <main id="container_register">
             <h1>Não perca nenhum <br /> lançamento </h1>
             <h3>Faça parte da nossa comunidade <br /> gamer!</h3>
         </main>
-        <section id="form-register">
-            <div class="titulo">
-                <h3>
-                    Vamos manter você informado! <br /> Precisamos apenas de algum contato
-                </h3>
-            </div>
-            <form id="fields">
-                <label>Nome Completo</label> <br />
-                <input type="text" placeholder="Ex: Marcos Ferreira" required> <br />
-                <label>Seu melhor e-mail</label> <br />
-                <input type="email" placeholder="Ex: name@gmail.com" required> <br />
-                <label>WhatsApp</label> <br />
-                <input type="tel" placeholder="(XX) 0000-0000">
-            </form>
-            <div class="additional">
-                <h3>Envie seu e-mail para <br /> <b>volpebits@gmail.com</b></h3>
-            </div>
-        </section>
+            <section id="form-register">
+                <div class="titulo">
+                    <h3>
+                        Vamos manter você informado! <br /> Precisamos apenas de algum contato
+                    </h3>
+                </div>
+                <form id="fields">
+                    <label>Nome Completo</label> <br />
+                    <input type="text" placeholder="Ex: Marcos Ferreira" required> <br />
+                    <label>Seu melhor e-mail</label> <br />
+                    <input type="email" placeholder="Ex: name@gmail.com" required> <br />
+                    <label>WhatsApp</label> <br />
+                    <input type="tel" placeholder="(XX) 0000-0000">
+                </form>
+                <div class="additional">
+                    <h3>Envie seu e-mail para <br /> <b>volpebits@gmail.com</b></h3>
+                </div>
+            </section>
         <footer id="foot">
-            <img class="logo" src="../icons/logo 2.png" alt="Volpe">
-            <p>&copy; 2025. Todos os direitos reservados à Volpe.</p>
+            <div class="about">
+                <p>&copy; 2025. Todos os direitos reservados à Volpe.</p>
+            </div>
+            <div class="socialmedia">
+                <a href="https://x.com/volpebits" target="_blank"><img class="foot_icons" src="../icons/new-twitter.png" alt="twitter"></a>
+                <a href="https://discord.gg/FdShYCNs"><img class="foot_icons" src="../icons/discord.png" alt="discord"></a>
+                <a href="https://www.instagram.com/volp.ebits/" target="_blank"><img class="foot_icons" src="../icons/instagram.png" alt="instagram"></a>
+            </div>
         </footer>
     </div>
     
