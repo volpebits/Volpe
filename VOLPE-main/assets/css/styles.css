@@ -69,10 +69,11 @@
     width: 129px;
 }
 
-#foot{
-    /* margin-top: 100px; */
+/* #foot{
+    margin-top: 100px;
     display: flex;
-}
+}*/ 
+
 #foot p{
     margin-top: 100px;
     margin-left: 40px;
