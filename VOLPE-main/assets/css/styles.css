@@ -9,23 +9,7 @@
     top right,
     bottom left;
 }
-
-.container-card {
-    height: 1400px;
-    width: 1920px;
-}
-
-.card {
-    position: relative;
-    height: 421px;
-    width: 536px;
-    overflow: hidden;
-    background-color: grey;
-    margin-left: 40px;
-    margin-top: 100px;
-    margin-right: 40px;
-    float: left;
-}
+/* Template da pagina */
 
 #dashboard{
     background-color: rgba(122, 44, 191, 0.459);
@@ -33,6 +17,22 @@
     height: 126px;
     width: auto;
     position: relative;
+}
+
+.container p{
+    width: 1000px;
+    margin-left: 230px;
+    font-size: 24px;
+    /* color: white; */
+}
+
+.container h1{
+    font-size: 96px;
+    /* color: white; */
+    width: 1400px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    margin-top: 30px;
 }
 
 .menu{
@@ -51,12 +51,26 @@
     font-weight: 700;
 }
 
+#arrow{
+    margin-top: 5px;
+}
+
+#register{
+    margin-left: 20px;
+}
+
+#flower{
+    margin-left: 400px;
+
+}
+
 .logo{
     height: 126px;
     width: 129px;
 }
 
 #foot{
+    /* margin-top: 100px; */
     display: flex;
 }
 #foot p{
@@ -64,6 +78,37 @@
     margin-left: 40px;
 }
 
-#important{
-    margin-top: 100px;
+.foot_icons{
+    margin-top: 65px;
+    width: 54px;
+    height: 54px;
+    padding: 0 30px;
 }
+
+.socialmedia{
+    margin-left: 1050px;
+}
+
+
+/* fim do template */
+
+
+/* pagina de games */
+.container-card {
+    height: 1400px;
+    width: 1920px;
+}
+
+.card {
+    position: relative;
+    height: 421px;
+    width: 536px;
+    overflow: hidden;
+    background-color: grey;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-right: 40px;
+    float: left;
+}
+
+/* fim pagina de games */
