@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+    text-align: center;
+    height: 700px;
+}
+
+h1{
+    color: white;
+    font-size: 96px;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+}
