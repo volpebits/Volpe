@@ -27,6 +27,11 @@
 }
 
 /* * Botões */
+
+.menu_buttons{
+    flex: 2.4;
+}
+
 .button{
     text-decoration: none;
     padding: 10px 40px;
@@ -42,10 +47,15 @@
     /* transform: scale(1.1); */
 }
 
-#register {
+.container_register{
     flex: 1;
     display: flex;
     justify-content: flex-end;
     margin-right: 3%;
+}
+
+#register { 
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
