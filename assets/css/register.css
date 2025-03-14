@@ -53,6 +53,7 @@ input {
     width: 80%
     padding: 10px 5px 5px;
     border: none;
+    outline: none;
     border-radius: 15px;
 }
 
