@@ -29,32 +29,41 @@
     width: 40%;
     height: 100%;
     background-color: rgba(12, 245, 116, 1);
-    text-align: center;
     border-radius: 5%;
     font-size: 30px;
     font-weight: 600;
 }
 #button_send{
+    margin-left: 10%;
+    margin-top: 5%;
     background-color: rgba(123,44,191,1);
     width: 80%;
     font-size: 25px;
     color: white;
     border-radius: 10px;
 }
-
+label{
+    margin-left: 5%;
+}
 input {
     font-size: 24px;
+    margin-left: 5%;
     background-color: transparent;
-    text-align: center;
-    text-decoration: underline;
-    width: 60%;
+    text-decoration:underline;
+    width: 80%
     padding: 10px 5px 5px;
     border: none;
     border-radius: 15px;
 }
 
-#form-register h3{
+#form-register h2{
+    text-align: center;
     font-size: 33px;
+}
+
+#form-register h3{
+    text-align: center;
+    font-size: 25px;
 }
 
 #additional h3{
