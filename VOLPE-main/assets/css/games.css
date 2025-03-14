@@ -1,0 +1,17 @@
+/* Página de Games */
+.container-card {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+.card {
+    position: relative;
+    height: 421px;
+    width: 536px;
+    background-color: grey;
+}

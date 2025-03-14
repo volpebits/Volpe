@@ -1,0 +1,51 @@
+/* Dashboard */
+#dashboard {
+    display: flex;
+    height: 126px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+/* Logo */
+#imgholder {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    max-width: 100%;
+}
+
+/* * Botões */
+.button{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: rgb(255, 231, 231);
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition: transform 0.4s ease;
+}
+
+.button:hover {
+    color: rgba(58, 12, 163, 1);
+    /* transform: scale(1.1); */
+}
+
+#register {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3%;
+    align-items: center;
+}

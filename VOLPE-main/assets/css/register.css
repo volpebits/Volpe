@@ -1,0 +1,58 @@
+/* container de conteúdo da página*/
+
+.context{
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.context h1{
+    font-size: 64px;
+    color: white;
+}
+
+.context h2{
+    font-size: 48px;
+    color: white;
+}
+
+.content_register{
+    display: flex;
+    align-items: center;
+}
+
+/* container formulário */
+
+#form-register{
+    margin-left: 10%;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(12, 245, 116, 1);
+    text-align: center;
+    border-radius: 10%;
+    font-size: 30px;
+    font-weight: 600; 
+}
+
+input {
+    font-size: 24px;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: underline;
+    width: 60%;
+    padding: 10px 5px 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+#form-register h3{
+    font-size: 33px;
+}
+
+#additional h3{
+    color: white;
+    font-size: 25px;
+}
+
+

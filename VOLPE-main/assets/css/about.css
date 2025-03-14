@@ -1,0 +1,22 @@
+/* Conteúdo "About" */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.container h1 {
+    font-size: 96px;
+    color: white;
+}
+
+.container p {
+    font-size: 24px;
+    color: white;
+}
+
+/* Container principal */
+#container_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
