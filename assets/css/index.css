@@ -1,5 +1,4 @@
 /* primeiro container de informações */
-
 .container {
     display: flex;
     align-items: center;      
@@ -53,7 +52,6 @@
 /* fim do container  */
 
 /* container imagem recomendado */
-
 .recomendation{
     display: flex;
     width: 70%;
@@ -71,25 +69,45 @@
 }
 
 /* carrossel de imagens */
-.carousel {
+.container-carousel {
     display: flex;
-    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-carousel {
+    width: 75%;
+}
+
+.text-carousel h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.text-carousel h3 {
+    font-size: 36px;
+    color: white;
+}
+
+.carousel {
     width: 70%;
-    overflow: hidden;
+    height: 600px;
+    overflow:hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 .carousel-track {
     display: flex;
-    width: 300%;
+    width: 100%;
     animation: slide 9s infinite;
 }
 
 .carousel img {
     width: 100%; 
-    height: 100%; 
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain; 
 }
 
 @keyframes slide {
@@ -98,4 +116,28 @@
     69%, 99% { transform: translateX(-200%); }
 }
 
-/* fim do carrosel */
+/* fim do carrossel */
+
+/* container por tras do controle */
+
+.container-control{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-carousel {
+    width: 75%;
+}
+
+.text-control h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.text-control h3 {
+    font-size: 34px;
+    color: white;
+}
