@@ -10,9 +10,9 @@
 }
 
 .text-content {
-    width: 50%;
+    width: 50%; 
     text-align: center;         
-    margin-right: 20px;         
+    margin-right: 40px;         
 }
 
 .text-content h1 {
@@ -51,6 +51,24 @@
 }
 
 /* fim do container  */
+
+/* container imagem recomendado */
+
+.recomendation{
+    display: flex;
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+#recomendation-img{
+    border-radius: 10%;
+    width: 100%;
+}
 
 /* carrossel de imagens */
 .carousel {
