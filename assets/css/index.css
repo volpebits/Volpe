@@ -1,4 +1,78 @@
 .container{
-    text-align: center;
+    width: 50%;
+    margin-left: 5%;
     height: 700px;
 }
+
+.container h1{
+    font-size: 72px;
+    color: rgba(58, 12, 163, 1);
+    margin-bottom: 0;
+}
+
+.container h2{
+    margin-top: 0;
+    width: 80%;
+    font-size: 40px;
+    color: white;
+}
+
+#find-more{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    padding: 15px 30px;
+    background-color:  rgba(123,44,191,1) ;
+    border: 2px solid rgba(123,44,191,1);
+    border-radius: 30px;
+}
+
+.button-find{
+    display: flex;
+    width: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+#find-more:hover{
+    background-color: transparent;
+    color: rgba(123,44,191,1);
+    border: none;
+    font-size: 28px;
+    font-weight: 800px;
+    transition: 1s ease;
+}
+
+
+/* carrossel de imagens */
+.carousel {
+    display: flex;
+    justify-self: center;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.carousel-track {
+    display: flex;
+    width: 300%;
+    animation: slide 9s infinite;
+}
+
+.carousel img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
+    height: 100%; /* Mantém a altura fixa */
+    object-fit: cover; /* Evita cortes desproporcionais */
+}
+
+@keyframes slide {
+    0%, 33% { transform: translateX(0); }
+    36%, 66% { transform: translateX(-100%); }
+    69%, 99% { transform: translateX(-200%); }
+}
+
+/* fim do carrosel */
