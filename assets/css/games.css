@@ -35,3 +35,28 @@
 }
 
 /* fim do primeiro container */
+
+/* info game */
+
+.info-game{
+    display: flex;
+    height: 800px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.888);
+    overflow: hidden;
+}
+
+.info-text{
+    margin-top: 20px;
+    align-items: center;
+    color: white;
+    width:50%;
+}
+
+.img-game{
+    margin-top: 20px;
+    /* height: 400px; */
+}
+
+/* fim das informações */
