@@ -22,3 +22,16 @@
     flex-direction: column;
     justify-content: center;
 }
+
+#container_about img{
+    align-items: center;
+    justify-content: center;
+}
+
+/* seção avatares */
+.avatars{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
