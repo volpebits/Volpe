@@ -167,6 +167,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .user{
@@ -187,7 +188,7 @@
     color: white;   
 }
 
-.user h3 {
+.user p {
     width: 80%;
     font-size: 24px;
     color: white;
@@ -224,7 +225,7 @@
     color: white;   
 }
 
-.new-creator h3{
+.new-creator p{
     width: 80%;
     font-size: 24px;
     color: white;
@@ -238,7 +239,7 @@
     color: white;
     padding: 15px 30px;
     background-color: rgba(12,245,116,1);
-    border: 2px solid: rgba(12,245,116,1);
+    border: 2px solid rgba(12,245,116,1);
     border-radius: 30px;
     margin-bottom: 20px;
 }
