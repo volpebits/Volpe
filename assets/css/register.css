@@ -20,6 +20,7 @@
 .content_register{
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 /* container formulário */
@@ -33,15 +34,18 @@
     font-size: 30px;
     font-weight: 600;
 }
+
 #button_submit{
     margin-left: 10%;
     margin-top: 5%;
     background-color: rgba(123,44,191,1);
     width: 80%;
     font-size: 25px;
+    cursor: pointer;
     color: white;
     border-radius: 10px;
 }
+
 label{
     margin-left: 5%;
 }
@@ -50,7 +54,7 @@ input {
     margin-left: 5%;
     background-color: transparent;
     text-decoration:underline;
-    width: 80%
+    width: 80%;
     padding: 10px 5px 5px;
     border: none;
     outline: none;
