@@ -7,8 +7,11 @@
     overflow: hidden;
 }
 
-.video-container{
+.video-container {
+    width: 30%;
+    min-width: 30%;
     height: 600px;
+    min-height: 600px;
     border: 10px solid transparent; 
     border-image: linear-gradient(to left, rgba(12,245,116,1), rgba(123,44,191,1)) 1;
     overflow: hidden;
