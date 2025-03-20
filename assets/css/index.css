@@ -8,22 +8,26 @@
     box-sizing: border-box;     
 }
 
+/* div dos textos */
 .text-content {
     width: 50%; 
     text-align: center;         
     margin-right: 40px;         
 }
 
+/* titulo da pagina */
 .text-content h1 {
     font-size: 72px;
     color: rgba(58, 12, 163, 1);
 }
 
+/* informações */
 .text-content h2 {
     font-size: 40px;
     color: white;
 }
 
+/* botão saiba mais */
 #find-more {
     text-align: center;
     text-decoration: none;
@@ -36,9 +40,11 @@
     border-radius: 30px;
 }
 
+/* imagem lateral dos textos */
 #image-home{
     height: 900px;
 }
+
 /* fim do container  */
 
 /* container imagem em alta */
@@ -53,6 +59,7 @@
     align-items: center;
 }
 
+/* tamanho da imagem */
 #recomendation-img{
     border-radius: 10px;
     width: 100%;
@@ -66,20 +73,24 @@
     justify-content: center;
 }
 
+/* div texto do carrosel de imagens */
 .text-carousel {
     width: 75%;
 }
 
+/* titulo do carrosel */
 .text-carousel h2 {
     font-size: 60px;
     color: white;
 }
 
+/* texto secudanrio do carrosel */
 .text-carousel h3 {
     font-size: 36px;
     color: white;
 }
 
+/* formato e tamanho do carrosel */
 .carousel {
     width: 70%;
     height: 600px;
@@ -87,18 +98,20 @@
     border-radius: 10px;
 }
 
-.carousel-track {
-    display: flex;
-    width: 100%;
-    animation: slide 9s infinite;
-}
-
+/* imagens do carrosel */
 .carousel img {
     width: 100%; 
     height: 100%;
     object-fit: contain; 
 }
 
+/* animação do carrossel */
+.carousel-track {
+    display: flex;
+    width: 100%;
+    animation: slide 9s infinite;
+}
+/* efeito da animação */
 @keyframes slide {
     0%, 33% { transform: translateX(0); }
     36%, 66% { transform: translateX(-100%); }
@@ -108,7 +121,6 @@
 /* fim do carrossel */
 
 /* container por tras do controle */
-
 .container-control{
     width: 100%;
     display: flex;
@@ -116,21 +128,17 @@
     align-items: center;
     justify-content: center;
 }
-
-.text-carousel {
-    width: 75%;
-}
-
+/* titulo do container */
 .text-control h2 {
     font-size: 50px;
     color: white;   
 }
-
+/* texto secundario */
 .text-control h3 {
     font-size: 34px;
     color: white;
 }
-
+/* div dos criadores */
 .creators{
     display: flex;
     justify-content: space-evenly;
@@ -138,13 +146,13 @@
     height: 500px;
     background-color: rgba(12,245,116,1);
 }
-
+/* imagem dos criadores */
 .creators img{
     margin-top: 10%;
     width: 100px;
     height: 100px;
 }
-
+/* div separando cada criador */
 .ator{
     width: 30%;
 }
@@ -157,7 +165,7 @@
     align-items: center;
     margin-bottom: 50px;
 }
-
+/* containes de inscrição de usuarios */
 .user{
     text-align: left;
     display: flex;
@@ -170,19 +178,19 @@
     height: 500px;
     border-radius: 20px 0px 0px 20px;
 }
-
+/* texto chamada */
 .user h2 {
     width: 80%;
     font-size: 50px;
     color: white;   
 }
-
+/* texto explicativo */
 .user p {
     width: 80%;
     font-size: 24px;
     color: white;
 }
-
+/* botão */
 .user a{
     text-align: center;
     text-decoration: none;
@@ -195,7 +203,7 @@
     border-radius: 30px;
     margin-bottom: 20px;
 }
-
+/* div inscrição de programadores */
 .new-creator{
     text-align: right;
     display: flex;
@@ -208,19 +216,19 @@
     height: 500px;
     border-radius: 0px 20px 20px 0px;
 }
-
+/* texto chamada */
 .new-creator h2 {
     width: 80%;
     font-size: 50px;
     color: white;   
 }
-
+/* texto explicativo */
 .new-creator p{
     width: 80%;
     font-size: 24px;
     color: white;
 }
-
+/* botão */
 .new-creator a{
     text-align: center;
     text-decoration: none;
@@ -233,3 +241,5 @@
     border-radius: 30px;
     margin-bottom: 20px;
 }
+
+/* fim da página */

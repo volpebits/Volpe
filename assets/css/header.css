@@ -7,6 +7,7 @@
     justify-content: space-between;
 }
 
+/* div que concentra o menu todo */
 .menu {
     display: flex;
     justify-content: space-around;
@@ -14,22 +15,24 @@
     align-items: center;
 }
 
-/* Logo */
+/* div Logo */
 #imgholder {
     flex: 1;
     display: flex;
     align-items: center;
 }
-
+/* tamanho da logo */
 .logo {
     height: 100px;
     max-width: 100%;
 }
 
-/* * Botões */
+/* * div que centraliza os botões */
 .menu_buttons{
     flex: 2.4;
 }
+
+/* Formato dos botões */
 .button{
     text-decoration: none;
     padding: 10px 40px;
@@ -39,20 +42,24 @@
     font-size: 1.4rem;
     transition: transform 0.4s ease;
 }
+
+/* animação dos botões */
 .button:hover {
     color: rgba(58, 12, 163, 1);
     /* transform: scale(1.1); */
 }
 
-/* registre-se */
+/* div do botão registre-se */
+#register { 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* botão registre-se */
 .container_register{
     flex: 1;
     display: flex;
     justify-content: flex-end;
     margin-right: 3%;
-}
-#register { 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }

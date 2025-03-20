@@ -1,5 +1,4 @@
 /* container de conteúdo da página*/
-
 .context{
     width: 40%;
     align-items: center;
@@ -7,24 +6,26 @@
     margin-left: 5%;
 }
 
-.context h1{
-    font-size: 64px;
-    color: white;
-}
-
-.context h2{
-    font-size: 48px;
-    color: white;
-}
-
+/* div que centraliza os itens lado a lado */
 .content_register{
     display: flex;
     align-items: center;
     margin-bottom: 50px;
 }
 
-/* container formulário */
+/* titulo da pagina */
+.context h1{
+    font-size: 64px;
+    color: white;
+}
 
+/* texto de informações */
+.context h2{
+    font-size: 48px;
+    color: white;
+}
+
+/* container formulário */
 #form-register{
     margin-left: 10%;
     width: 40%;
@@ -35,20 +36,24 @@
     font-weight: 600;
 }
 
-#button_submit{
-    margin-left: 10%;
-    margin-top: 5%;
-    background-color: rgba(123,44,191,1);
-    width: 80%;
-    font-size: 25px;
-    cursor: pointer;
-    color: white;
-    border-radius: 10px;
+/* titulo do form */
+#form-register h2{
+    text-align: center;
+    font-size: 33px;
 }
 
+/* info do form */
+#form-register h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* nome do campo do form */
 label{
     margin-left: 5%;
 }
+
+/* entrada de texto */
 input {
     font-size: 24px;
     margin-left: 5%;
@@ -61,16 +66,19 @@ input {
     border-radius: 15px;
 }
 
-#form-register h2{
-    text-align: center;
-    font-size: 33px;
-}
-
-#form-register h3{
-    text-align: center;
+/* botão de enviar */
+#button_submit{
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: rgba(123,44,191,1);
+    width: 80%;
     font-size: 25px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
 }
 
+/* informações de contato */
 #additional h3{
     color: white;
     font-size: 25px;
