@@ -36,22 +36,12 @@
     border-radius: 30px;
 }
 
-/* #find-more:hover {
-    background-color: transparent;
-    color: rgba(123, 44, 191, 1);
-    border: none;
-    font-size: 28px;
-    font-weight: 800;
-    transition: 1s ease;
-} */
-
 #image-home{
     height: 900px;
 }
-
 /* fim do container  */
 
-/* container imagem recomendado */
+/* container imagem em alta */
 .recomendation{
     display: flex;
     width: 70%;
@@ -144,7 +134,6 @@
 .creators{
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     width: 100%;
     height: 500px;
     background-color: rgba(12,245,116,1);
@@ -161,7 +150,6 @@
 }
 
 /* container inscreva-se */
-
 .sub{
     width: 100%;
     display: flex;
