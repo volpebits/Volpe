@@ -54,6 +54,7 @@
     align-items: center;
     color: white;
     width:40%;
+    overflow: hidden;
 }
 
 .img-game{
