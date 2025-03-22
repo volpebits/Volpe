@@ -32,19 +32,22 @@
         
         <!-- formulário de cadastro -->
         <section id="form-register">
-            <form>
+            <form action="./validation.html" method="get">
+                <!-- campo de titulo -->
                 <div class="titulo"></div>
-                <h2>
-                    Vamos manter você informado! <br /> 
-                </h2>
+                <h2>Vamos manter você informado! <br /></h2>
                 <h3>Precisamos apenas de algum contato</h3>
+                <!-- campo de nome -->
                 <label>Nome Completo</label> <br />
-                <input type="text" placeholder="Ex: Marcos Ferreira" required> <br />
+                <input type="text" placeholder="Ex: Marcos Ferreira" required autofocus> <br />
+                <!-- campo de email -->
                 <label>Seu melhor e-mail</label> <br />
                 <input type="email" placeholder="Ex: name@gmail.com" required> <br />
+                <!-- campo de whatsapp -->
                 <label>WhatsApp</label> <br />
                 <input type="tel" placeholder="(XX) 0000-0000"> <br/>
-                <a href="../pages/validation.html"><button type="submit" id="button_submit">Enviar</button></a>
+                <!-- botão de enviar -->
+                <button type="submit" id="button_submit">Enviar</button>
             </form>
             <div id="additional">
                 <h3>Envie seu e-mail para <br /> <b>volpebits@gmail.com</b></h3>
