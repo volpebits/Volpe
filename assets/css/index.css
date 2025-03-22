@@ -54,13 +54,13 @@
     width: 80%;
     margin: 5% 10%;
 }
-
+/* formato da imagem */
 #recomendation-img {
     border-radius: 10px;
     width: 100%;
     display: block;
 }
-
+/* texto do elemento recomendado */
 .text_recomend {
     position: absolute;
     bottom: 0;
@@ -73,7 +73,7 @@
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-
+/* ação de hover */
 .recomendation:hover .text_recomend {
     opacity: 1;
 }
