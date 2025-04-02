@@ -32,6 +32,7 @@
     color: rgb(255, 231, 231);
     font-weight: 700;
     font-size: 1.4rem;
+    white-space: nowrap;
     transition: transform 0.4s ease;
 }
 
@@ -59,7 +60,6 @@
 /* responsividade */
 
 @media (max-width: 800px){
-
     .menu{
         display: flex;
         flex-direction: column;

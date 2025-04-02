@@ -1,6 +1,10 @@
 /* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
+root{
+  font-size: 10px;
+}
+
 /* Reset global */
 html, body {
   margin: 0;

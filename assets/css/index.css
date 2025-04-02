@@ -181,48 +181,46 @@
     align-items: center;         /* centraliza verticalmente */
     flex-wrap: wrap;             /* empilha em telas pequenas */
     padding: 5vmin;
- 
 }
- 
+
 /* formato dos dois blocos */
 .user, .new-creator {
     flex: 1 1 400px;
     display: flex;
     flex-direction: column;
+    padding: 0 1.5rem;
     align-items: center;
     text-align: center;
     justify-content: space-between;
 }
 /* texto chamada */
 .sub h2 {
-    font-size: 7vmin;
-    color: white;   
-    padding: 0px 20px;
+    font-size: 3rem;
+    font-weight: 900;
 }
 /* texto explicativo */
 .sub p {
-    font-size: 1.6rem;
-    color: white;
-    padding: 0px 20px;
+    font-size: 1.5rem;
     height: 13rem;
+    font-weight: 600;
 }
 /* botão */
 .sub a{
     text-align: center;
     text-decoration: none;
-    font-size: 3vmin;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin: 10px;
     color: white;
     padding: 1.5vmin 3vmin; 
     border-radius: 5vmin;
     margin-bottom: 2rem;
 }
- 
+
 /* div users */
 .user{
     width: 50%;
     height: 90vh;
+    color: black;
     background-color: rgba(12,245,116,1);
     border-radius: 20px 0px 0px 20px;
 }
@@ -230,10 +228,11 @@
 .new-creator{
     width: 50%;
     height: 90vh;
+    color: white;
     background-color:rgba(123, 44, 191, 1);
     border-radius: 0px 20px 20px 0px;
 }
- 
+
 /* botão user */
 .user a{
     background-color: rgba(123, 44, 191, 1);
@@ -242,11 +241,10 @@
 .new-creator a{
     background-color: rgba(12,245,116,1);
 }
- 
+
 /* fim da página */
- 
+
 /* responsividade */
- 
 @media (max-width: 1000px){
     .container {
         display: flex;
@@ -258,13 +256,13 @@
         box-sizing: border-box;     
         text-align: center;
     }
- 
+
     .text-content {
         width: 50%; 
         text-align: center;
         margin: 0 auto;
     }
- 
+
     .image-home{
         width: 80%;
     }
@@ -274,23 +272,22 @@
         height: auto;
         display: block;
     }
- 
     .recomendation:hover .text_legend {
         opacity: 0;
     }
- 
+    /* div subs */
     .sub{
         gap: 3vmin;
+        width: 80%;
+        margin: 0 auto;
     }
- 
     .user{
-        height: auto;
         border-radius: 5vmin;
     }
- 
     .new-creator{
-        height: auto;
         border-radius: 5vmin;
     }
- 
+    .sub p {
+        height: auto;
+    }
 }
