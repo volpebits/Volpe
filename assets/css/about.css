@@ -26,12 +26,12 @@ p {
     color: white;
 }
 
-img{
+.avatars img{
     width: 50%;
 }
 
 @media(max-width:1000px){
-    img{
+    .avatars img{
         width: 80%;
-    }
+    } 
 }
