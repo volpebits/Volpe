@@ -179,20 +179,25 @@ h2{
 }
 
 /* container inscreva-se */
-.sub{
-    width: 80%;
+.sub {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: center;     /* centraliza horizontalmente */
+    align-items: center;         /* centraliza verticalmente */
+    flex-wrap: wrap;             /* empilha em telas pequenas */
+    padding: 5vmin;
+    box-sizing: border-box;
 }
 
 /* formato dos dois blocos */
-.user .new-creator{
+.user, .new-creator {
+    flex: 1 1 400px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-
 /* texto chamada */
 .sub h2 {
     font-size: 7vmin;
@@ -203,8 +208,8 @@ h2{
 .sub p {
     font-size: 4vmin;
     color: white;
+    margin-bottom: 5vmin;
     padding: 0px 20px;
-    margin-bottom: 50px;
 }
 /* botão */
 .sub a{
@@ -212,23 +217,23 @@ h2{
     text-decoration: none;
     font-size: 3vmin;
     font-weight: 600;
-    margin: 30px;
+    margin: 10px;
     color: white;
-    padding: 3vmin ;
+    padding: 1.5vmin 3vmin; 
     border-radius: 5vmin;
 }
 
 /* div users */
 .user{
     width: 50%;
-    height: 95vh;
+    height: 90vh;
     background-color: rgba(12,245,116,1);
     border-radius: 20px 0px 0px 20px;
 }
 /* div inscrição de programadores */
 .new-creator{
     width: 50%;
-    height: 95vh;
+    height: 90vh;
     background-color:rgba(123, 44, 191, 1);
     border-radius: 0px 20px 20px 0px;
 }
@@ -274,44 +279,22 @@ h2{
         display: block;
     }
 
-    .sub{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0px;
-        height: auto;
-    }
-
-    /* div users */
-    .user{
-        width: 80%;
-        height: 80vh;
-        margin: 20px;
-        background-color: rgba(12,245,116,1);
-        border-radius: 20px 20px 20px 20px;
-    }
-    /* div inscrição de programadores */
-    .new-creator{
-        width: 80%;
-        height: 80vh;
-        margin: 20px;
-        background-color:rgba(123, 44, 191, 1);
-        border-radius: 20px 20px 20px 20px;
-    }
-
     .recomendation:hover .text_legend {
         opacity: 0;
     }
-}
 
-@media (max-width: 750px){
-    /* div users */
+    .sub{
+        gap: 3vmin;
+    }
+
     .user{
-        height: 70vh;
+        height: auto;
+        border-radius: 5vmin;
     }
-    /* div inscrição de programadores */
+
     .new-creator{
-        height: 70vh;
+        height: auto;
+        border-radius: 5vmin;
     }
+
 }
