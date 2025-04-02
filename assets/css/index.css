@@ -48,7 +48,7 @@ h2{
 
 /* imagem lateral dos textos */
 #image-home{
-    margin: 20px 0px;
+    margin: 20px;
     height: 100vh;
 }
 
@@ -250,17 +250,28 @@ h2{
     .container {
         display: flex;
         flex-direction: column;
-        align-items: center;      
+        align-items: center; /* Centraliza os elementos horizontalmente */
         justify-content: center;
         width: 100%;               
-        padding: 0 20px;            
+        padding: 0px;            
         box-sizing: border-box;     
+        text-align: center;
     }
-
+    
     .text-content {
         width: 50%; 
         text-align: center;
-        margin-right: 0px;      
+        margin: 0 auto;
+    }
+    
+    .image-home{
+        width: 80%;
+    }
+    #image-home {
+        margin: 20px;
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     .sub{
@@ -275,6 +286,7 @@ h2{
     /* div users */
     .user{
         width: 80%;
+        height: 80vh;
         margin: 20px;
         background-color: rgba(12,245,116,1);
         border-radius: 20px 20px 20px 20px;
@@ -282,15 +294,24 @@ h2{
     /* div inscrição de programadores */
     .new-creator{
         width: 80%;
+        height: 80vh;
         margin: 20px;
         background-color:rgba(123, 44, 191, 1);
         border-radius: 20px 20px 20px 20px;
     }
 
-}
-
-@media (max-width: 800px){
     .recomendation:hover .text_legend {
         opacity: 0;
+    }
+}
+
+@media (max-width: 750px){
+    /* div users */
+    .user{
+        height: 70vh;
+    }
+    /* div inscrição de programadores */
+    .new-creator{
+        height: 70vh;
     }
 }
