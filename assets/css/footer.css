@@ -17,7 +17,7 @@
 
 /* texto de copyright */
 #foot p {
-    font-size: 12px;
+    font-size: 3vmin;
     color: white;
     margin-left: 10px;
 }
@@ -31,10 +31,16 @@
 
 /*tamanho dos icones*/
 .foot_icons {
-    width: 46px;
+    width: 8vh;
 }  
 /* animação dos icones */
 .foot_icons:hover{
     transition: 0.5s;
     transform: scale(1.3);
+}
+
+@media (max-width: 750px){
+    .foot_icons {
+        width: 5vh;
+    }  
 }

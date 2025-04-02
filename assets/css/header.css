@@ -1,11 +1,4 @@
 /* Dashboard */
-#dashboard {
-    display: flex;
-    height: 126px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
 
 /* div que concentra o menu todo */
 .menu {
@@ -62,4 +55,15 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 3%;
+}
+
+/* responsividade */
+
+@media (max-width: 800px){
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
