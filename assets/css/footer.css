@@ -40,7 +40,12 @@
 }
 
 @media (max-width: 750px){
+    #foot {
+        display: flex;
+        flex-direction: column;
+    }
     .foot_icons {
-        width: 5vh;
-    }  
+        margin-top: 15px;
+        width: 6vh;
+    }
 }
