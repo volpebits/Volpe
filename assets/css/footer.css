@@ -39,7 +39,7 @@
     transform: scale(1.3);
 }
 
-@media (max-width: 750px){
+@media (max-width: 900px){
     #foot {
         display: flex;
         flex-direction: column;
