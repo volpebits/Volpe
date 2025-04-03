@@ -56,7 +56,7 @@
 
 /* texto sobre o jogo */
 .info-text {
-    font-size: 3.5vmin;
+    font-size: 2.5vmin;
     font-weight: 700;
     padding: 1.5rem;
     color: white;
@@ -133,6 +133,10 @@
         justify-content: center;
         display: flex;
         height: auto;
+    }
+
+    .info-text{
+        font-size: 3vmin;
     }
 
     .img-game {
