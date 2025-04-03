@@ -5,7 +5,8 @@
 }
 
 .context {
-    width: 50%;
+    width: 100%;
+    padding: 0 1.5rem;
     align-items: center;
     text-align: center;
 }
@@ -15,7 +16,7 @@
     display: flex;
     width: 90%;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
 }
@@ -34,7 +35,7 @@
 
 /* container formulário */
 #form-register {
-    width: 40%;
+    width: 60%;
     height: 100%;
     background-color: rgba(12, 245, 116, 1);
     border-radius: 5vmin;
