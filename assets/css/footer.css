@@ -39,13 +39,15 @@
     transform: scale(1.3);
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     #foot {
         display: flex;
         flex-direction: column;
     }
+    #foot p {
+        font-size: 2vmin;
+    }
     .foot_icons {
-        margin-top: 15px;
         width: 6vh;
     }
 }
