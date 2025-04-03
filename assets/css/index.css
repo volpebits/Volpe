@@ -1,32 +1,31 @@
-
 /* primeiro container de informações */
 .container {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;           
+    justify-content: space-between;
     /* box-sizing: border-box;      */
 }
- 
+
 /* div dos textos */
 .text-content {
-    width: 50%; 
-    text-align: center;      
+    width: 50%;
+    text-align: center;
     /* margin-right: 40px; */
 }
- 
+
 /* titulo da pagina */
 .text-content h1 {
-    font-size: 9vmin;
+    font-size: 10vmin;
     color: rgba(58, 12, 163, 1);
 }
- 
+
 /* informações */
 .text-content h2 {
     font-size: 5vmin;
     color: white;
 }
- 
+
 /* botão saiba mais */
 #find-more {
     text-align: center;
@@ -39,15 +38,15 @@
     border: 2px solid rgba(123, 44, 191, 1);
     border-radius: 30px;
 }
- 
+
 /* imagem lateral dos textos */
-#image-home{
+#image-home {
     margin: 20px;
     height: 100vh;
 }
- 
+
 /* fim do container  */
- 
+
 /* container imagem em alta */
 .recomendation {
     position: relative;
@@ -55,12 +54,14 @@
     width: 80%;
     margin: 5% 10%;
 }
+
 /* formato da imagem */
 #recomendation-img {
     border-radius: 10px;
     width: 100%;
     display: block;
 }
+
 /* texto do elemento recomendado */
 .text_legend {
     position: absolute;
@@ -74,11 +75,12 @@
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
+
 /* ação de hover */
 .recomendation:hover .text_legend {
     opacity: 1;
 }
- 
+
 /* carrossel de imagens */
 .container-carousel {
     display: flex;
@@ -86,105 +88,128 @@
     align-items: center;
     justify-content: center;
 }
- 
+
 /* div texto do carrosel de imagens */
 .text-carousel {
     width: 75%;
 }
- 
+
 /* titulo do carrosel */
 .text-carousel h2 {
     font-size: 9vmin;
     color: white;
 }
- 
+
 /* texto secudanrio do carrosel */
 .text-carousel h3 {
     font-size: 5vmin;
     color: white;
 }
- 
+
 /* formato e tamanho do carrosel */
 .carousel {
     width: 70%;
-    overflow:hidden;
+    overflow: hidden;
     border-radius: 10px;
 }
- 
+
 /* imagens do carrosel */
 .carousel img {
-    width: 100%; 
-    object-fit: contain; 
+    width: 100%;
+    object-fit: contain;
 }
- 
+
 /* animação do carrossel */
 .carousel-track {
     display: flex;
     width: 100%;
     animation: slide 9s infinite;
 }
+
 /* efeito da animação */
 @keyframes slide {
-    0%, 33% { transform: translateX(0); }
-    36%, 66% { transform: translateX(-100%); }
-    69%, 99% { transform: translateX(-200%); }
+
+    0%,
+    33% {
+        transform: translateX(0);
+    }
+
+    36%,
+    66% {
+        transform: translateX(-100%);
+    }
+
+    69%,
+    99% {
+        transform: translateX(-200%);
+    }
 }
- 
+
 /* fim do carrossel */
- 
+
 /* container por tras do controle */
-.container-control{
+.container-control {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 /* titulo do container */
-.text-control{
+.text-control {
     padding: 0px 20px;
 }
+
 .text-control h2 {
     font-size: 9vmin;
     color: white;
 }
+
 /* texto secundario */
 .text-control h3 {
     font-size: 5vmin;
     color: white;
 }
+
 /* div dos criadores */
-.creators{
+.creators {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     overflow: hidden;
-    background-color: rgba(12,245,116,1);
+    background-color: rgba(12, 245, 116, 1);
 }
+
 /* imagem dos criadores */
-.creators img{
+.creators img {
     margin-top: 10%;
     width: 100px;
     height: 100px;
 }
+
 /* div separando cada criador */
-.ator{
+.ator {
     width: 30%;
 }
- 
- 
+
+
 /* container inscreva-se */
 .sub {
     max-width: 100%;
     display: flex;
-    justify-content: center;     /* centraliza horizontalmente */
-    align-items: center;         /* centraliza verticalmente */
-    flex-wrap: wrap;             /* empilha em telas pequenas */
+    justify-content: center;
+    /* centraliza horizontalmente */
+    align-items: center;
+    /* centraliza verticalmente */
+    flex-wrap: wrap;
+    /* empilha em telas pequenas */
     padding: 5vmin;
 }
 
 /* formato dos dois blocos */
-.user, .new-creator {
+.user,
+.new-creator {
     flex: 1 1 400px;
     display: flex;
     flex-direction: column;
@@ -193,80 +218,90 @@
     text-align: center;
     justify-content: space-between;
 }
+
 /* texto chamada */
 .sub h2 {
     font-size: 3rem;
     font-weight: 900;
 }
+
 /* texto explicativo */
 .sub p {
     font-size: 1.5rem;
     height: 13rem;
     font-weight: 600;
 }
+
 /* botão */
-.sub a{
+.sub a {
     text-align: center;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
     color: white;
-    padding: 1.5vmin 3vmin; 
+    padding: 1.5vmin 3vmin;
     border-radius: 5vmin;
     margin-bottom: 2rem;
 }
 
 /* div users */
-.user{
+.user {
     width: 50%;
     height: 90vh;
     color: black;
-    background-color: rgba(12,245,116,1);
+    background-color: rgba(12, 245, 116, 1);
     border-radius: 20px 0px 0px 20px;
 }
+
 /* div inscrição de programadores */
-.new-creator{
+.new-creator {
     width: 50%;
     height: 90vh;
     color: white;
-    background-color:rgba(123, 44, 191, 1);
+    background-color: rgba(123, 44, 191, 1);
     border-radius: 0px 20px 20px 0px;
 }
 
 /* botão user */
-.user a{
+.user a {
     background-color: rgba(123, 44, 191, 1);
 }
+
 /* botão new creator */
-.new-creator a{
-    background-color: rgba(12,245,116,1);
+.new-creator a {
+    background-color: rgba(12, 245, 116, 1);
 }
 
 /* fim da página */
 
 /* responsividade */
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
+
     /* ajuste topo da tela */
     .container {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centraliza os elementos horizontalmente */
+        align-items: center;
+        /* Centraliza os elementos horizontalmente */
         justify-content: center;
-        width: 100%;               
-        padding: 0px;            
-        box-sizing: border-box;     
+        width: 100%;
+        padding: 0px;
+        box-sizing: border-box;
         text-align: center;
     }
+
     /* texto do topo */
     .text-content {
-        width: 50%; 
+        width: 50%;
         text-align: center;
         margin: 0 auto;
     }
+
     /* imagem do topo */
-    .image-home{
+    .image-home {
         width: 80%;
     }
+
     #image-home {
         margin: 20px;
         width: 100%;
@@ -277,18 +312,20 @@
     .recomendation:hover .text_legend {
         opacity: 0;
     }
-    
+
     /* div subs */
-    .sub{
+    .sub {
         gap: 3vmin;
         width: 80%;
         margin: 0 auto;
     }
+
     /* texto das subs */
     .sub h2 {
         font-size: 2rem;
         font-weight: 900;
     }
+
     /* paragrafo das subs */
     .sub p {
         font-size: 1rem;
@@ -296,13 +333,16 @@
         font-weight: 600;
         height: auto;
     }
+
     /* botões da sub */
-    .sub a{
+    .sub a {
         font-size: 1rem;
         font-weight: 600;
     }
+
     /* ajuste das bordas */
-    .user, .new-creator{
+    .user,
+    .new-creator {
         border-radius: 5vmin;
     }
 
