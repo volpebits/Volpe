@@ -44,10 +44,7 @@
         display: flex;
         flex-direction: column;
     }
-    #foot p {
-        font-size: 2vmin;
-    }
     .foot_icons {
-        width: 6vh;
+        width: 4vh;
     }
 }
