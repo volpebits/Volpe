@@ -9,9 +9,8 @@
 
 /* div dos textos */
 .text-content {
-    width: 50%;
+    width: 90%;
     text-align: center;
-    /* margin-right: 40px; */
 }
 
 /* titulo da pagina */
@@ -108,7 +107,7 @@
 
 /* formato e tamanho do carrosel */
 .carousel {
-    width: 70%;
+    width: 80%;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -148,22 +147,23 @@
 /* fim do carrossel */
 
 /* container por tras do controle */
+
+/* titulo do container */
+.text-control {
+    width: 90%;
+}
+
+.text-control h2 {
+    font-size: 9vmin;
+    color: white;
+}
+
 .container-control {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-/* titulo do container */
-.text-control {
-    padding: 0px 20px;
-}
-
-.text-control h2 {
-    font-size: 9vmin;
-    color: white;
 }
 
 /* texto secundario */
@@ -176,21 +176,27 @@
 .creators {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     background-color: rgba(12, 245, 116, 1);
+    border-radius: 10px;
 }
 
 /* imagem dos criadores */
 .creators img {
-    margin-top: 10%;
+    padding:1rem 0;
     width: 100px;
     height: 100px;
 }
 
 /* div separando cada criador */
 .ator {
-    width: 30%;
+    padding: 0 1.5rem;
+}
+
+.creators p{
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 
@@ -290,12 +296,6 @@
         text-align: center;
     }
 
-    /* texto do topo */
-    .text-content {
-        width: 50%;
-        text-align: center;
-        margin: 0 auto;
-    }
 
     /* imagem do topo */
     .image-home {
@@ -344,6 +344,14 @@
     .user,
     .new-creator {
         border-radius: 5vmin;
+    }
+
+    .creators{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        background-color: rgba(12, 245, 116, 1);
+        border-radius: 10px;
     }
 
 }
