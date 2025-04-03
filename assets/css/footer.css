@@ -47,4 +47,12 @@
     .foot_icons {
         width: 4vh;
     }
+    #foot p {
+        font-size: 3vmin;
+        color: white;
+        margin-left: 0;
+    }
+    .socialmedia {
+        margin-right: 0;
+    }
 }
