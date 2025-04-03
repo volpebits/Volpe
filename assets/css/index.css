@@ -237,7 +237,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     color: white;
     padding: 1.5vmin 3vmin;
     border-radius: 5vmin;
@@ -269,6 +269,7 @@
 
 /* botão new creator */
 .new-creator a {
+    color:black;
     background-color: rgba(12, 245, 116, 1);
 }
 
@@ -282,8 +283,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* Centraliza os elementos horizontalmente */
-        justify-content: center;
+        justify-content:space-evenly;
         width: 100%;
         padding: 0px;
         box-sizing: border-box;
@@ -323,15 +323,15 @@
     /* texto das subs */
     .sub h2 {
         font-size: 2rem;
+        margin-bottom: 0;
         font-weight: 900;
     }
 
     /* paragrafo das subs */
     .sub p {
-        font-size: 1rem;
-        height: 13rem;
+        margin-top: 0;
+        font-size: 1.2rem;
         font-weight: 600;
-        height: auto;
     }
 
     /* botões da sub */
