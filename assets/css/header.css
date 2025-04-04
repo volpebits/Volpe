@@ -132,6 +132,10 @@
         top: 20px;
     }
 
+    #arrow{
+        display: none;
+    }
+
     #imgholder {
         justify-content: center;
     }
