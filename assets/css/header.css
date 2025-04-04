@@ -60,7 +60,7 @@
 
 /* Botão cadastre-se à direita */
 .menu-register {
-    flex: 1;
+    flex: 0.5;
     display: flex;
     justify-content: flex-end;
 }
