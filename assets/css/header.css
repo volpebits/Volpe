@@ -32,11 +32,12 @@
 }
 
 #dashboard {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
 }
 
 .logo {
-    margin: 0 7rem;
     height: 100px;
 }
 
@@ -52,7 +53,7 @@
 /* Links centrais */
 .menu-links {
     display: flex;
-    flex: 1;
+    flex: 2;
     justify-content: center;
     list-style: none;
     gap: 30px;
@@ -60,7 +61,7 @@
 
 /* Botão cadastre-se à direita */
 .menu-register {
-    flex: 0.5;
+    flex: 1;
     display: flex;
     justify-content: flex-end;
 }
