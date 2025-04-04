@@ -8,7 +8,7 @@
 
 /* div dos textos */
 .text-content {
-    width: 90%;
+    width: 80%;
     text-align: center;
 }
 
@@ -94,7 +94,7 @@
 
 /* div texto do carrosel de imagens */
 .text-carousel {
-    width: 90%;
+    width: 80%;
 }
 
 /* titulo do carrosel */
@@ -154,7 +154,7 @@
 
 /* titulo do container */
 .text-control {
-    width: 90%;
+    width: 80%;
 }
 
 .text-control h2 {
@@ -180,7 +180,7 @@
 .creators {
     display: flex;
     justify-content: space-evenly;
-    width: 90%;
+    width: 80%;
     margin: 1.5rem auto;
     overflow: hidden;
     background-color: rgba(12, 245, 116, 1);
@@ -207,7 +207,7 @@
 
 /* container inscreva-se */
 .sub {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -316,7 +316,7 @@
     /* div subs */
     .sub {
         gap: 3vmin;
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -335,7 +335,7 @@
     .creators {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 80%;
         margin: 1.5rem auto;
         background-color: rgba(12, 245, 116, 1);
         border-radius: 10px;

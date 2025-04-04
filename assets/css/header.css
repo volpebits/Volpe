@@ -36,6 +36,7 @@
 }
 
 .logo {
+    margin: 0 7rem;
     height: 100px;
 }
 
@@ -51,7 +52,7 @@
 /* Links centrais */
 .menu-links {
     display: flex;
-    flex: 3.5;
+    flex: 1;
     justify-content: center;
     list-style: none;
     gap: 30px;
