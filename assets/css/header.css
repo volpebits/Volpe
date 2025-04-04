@@ -108,7 +108,7 @@
     .menu.active {
         display: flex;
     }
-    
+
     .menu-links {
         padding: 0;
         flex-direction: column;
