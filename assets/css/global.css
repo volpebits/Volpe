@@ -1,28 +1,37 @@
 /* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
-root{
+root {
   font-size: 10px;
 }
 
 /* Reset global */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   font-family: "Saira", sans-serif;
-  background: linear-gradient(90deg, rgba(12,245,116,1) 10%, rgba(123,44,191,1) 90%);
-  background-size: 200% 200%;
-  animation: rotateBackground 5s ease-in-out infinite;
-  background-repeat: no-repeat;
 }
 
 /* Animação de fundo */
 @keyframes rotateBackground {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-
-
+.backgroundEffect {
+  overflow-x: hidden;
+  background: linear-gradient(90deg, rgba(12, 245, 116, 1) 10%, rgba(123, 44, 191, 1) 90%);
+  background-size: 200% 200%;
+  animation: rotateBackground 5s ease-in-out infinite;
+  background-repeat: no-repeat;
+}

@@ -51,7 +51,7 @@
     height: 100vh;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(30, 30, 30, 0.99);
+    background-color: #222;
 }
 
 /* texto sobre o jogo */
@@ -60,7 +60,7 @@
     font-weight: 700;
     padding: 1.5rem;
     color: white;
-    width: 90%;
+    width: 80%;
 }
 
 /* imagem do jogo */
@@ -73,7 +73,7 @@
 
 /* mais jogos */
 .more-games {
-    background-color: rgba(30, 30, 30, 0.99);
+    background-color: #222;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -98,15 +98,15 @@
 /* imagem dos jogos */
 .more-container img {
     width: 40%;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
     border-radius: 15px;
 }
 
 .more-container h3 {
     color: white;
-    padding: 2.5rem;
+    padding: 0 1.5rem;
     font-size: 3vmin;
-    width: 90%;
+    width: 80%;
 }
 
 @media(max-width: 1000px) {
@@ -124,7 +124,7 @@
 
     /* ajuste div de texto primeiro container */
     .text-container {
-        width: 90%;
+        width: 80%;
     }
 
     .info-game {
@@ -135,6 +135,7 @@
     }
 
     .info-text{
+        text-align: center;
         font-size: 3vmin;
     }
 
