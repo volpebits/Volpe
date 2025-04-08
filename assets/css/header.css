@@ -89,7 +89,7 @@
 
 /* responsividade */
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     #dashboard {
         justify-content: center;
         margin-bottom: 20px;

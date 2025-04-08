@@ -1,7 +1,11 @@
 /* Primeiro container */
 .container {
     height: 100vh;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
+    gap: 30px;
+    padding: 20px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -19,18 +23,14 @@
 .video-container video {
     width: 100%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
     object-fit: cover;
-}
-
-/* texto de chamada */
-.text-container {
-    width: 50%;
 }
 
 /* titulo da pagina */
 .text-container h1 {
     font-size: 8vmin;
+    margin: 0;
     text-align: center;
     color: white;
 }
@@ -38,34 +38,41 @@
 /* subtitulo */
 .text-container h2 {
     font-size: 4vmin;
+    margin: 0;
     text-align: center;
     color: white;
 }
 
 /* fim do primeiro container */
 
+/*background */
+.background{
+    min-width: 100%;
+    background-color: #222;
+}
+
 /* info game */
 
 .info-game {
     display: flex;
     height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
     align-items: center;
-    justify-content: space-around;
-    background-color: #222;
+    justify-content: space-evenly;
 }
 
 /* texto sobre o jogo */
 .info-text {
     font-size: 2.5vmin;
     font-weight: 700;
-    padding: 1.5rem;
     color: white;
     width: 80%;
 }
 
 /* imagem do jogo */
-.img-game img {
-    padding: 1.5rem;
+.img-game {
     height: 80vh;
 }
 
@@ -73,8 +80,9 @@
 
 /* mais jogos */
 .more-games {
-    background-color: #222;
     display: flex;
+    width: 80%;
+    margin: 0 auto;
     gap: 20px;
     flex-direction: column;
     padding-bottom: 50px;
@@ -84,13 +92,13 @@
 .more-games h2 {
     color: white;
     font-size: 8vmin;
-    margin: 5vmin;
 }
 
 /* Container para cada imagem */
 .more-container {
     width: 100%;
     display: flex;
+    gap: 20px;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -98,14 +106,13 @@
 /* imagem dos jogos */
 .more-container img {
     width: 40%;
-    padding: 0 1.5rem;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .more-container h3 {
     color: white;
-    padding: 0 1.5rem;
     font-size: 3vmin;
+    margin: 0;
     width: 80%;
 }
 
@@ -131,7 +138,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: auto;
+        height: auto;   
     }
 
     .info-text{
@@ -139,18 +146,9 @@
         font-size: 3vmin;
     }
 
-    .img-game {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img-game img {
-        width: 80%;
-        height: auto;
-    }
-
     .more-container{
         flex-direction: column;
+        gap: 10px;
     }
 
     .more-container img{
