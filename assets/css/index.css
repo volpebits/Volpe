@@ -2,6 +2,7 @@
 .container {
     display: flex;
     align-items: center;
+    gap: 15px;
     width: 80%;
     margin: 0 auto;
     justify-content: space-evenly;
@@ -10,20 +11,26 @@
 /* div dos textos */
 .text-content {
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
 /* titulo da pagina */
 .text-content h1 {
-    font-size: 10vmin;
+    font-size: 9vmin;
     color: rgba(58, 12, 163, 1);
+    margin: 0;
 }
 
 /* informações */
 .text-content h2 {
     font-size: 5vmin;
     color: white;
-    margin-bottom: 6vmin;
+    margin: 0;
 }
 
 /* botão saiba mais */
@@ -297,12 +304,10 @@
         align-items: center;
         justify-content: space-evenly;
         width: 100%;
-        gap: 4vmin;
         padding: 0px;
         box-sizing: border-box;
         text-align: center;
     }
-
 
     /* imagem do topo */
     .image-home {
