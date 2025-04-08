@@ -47,7 +47,7 @@
 
 /*background */
 .background{
-    min-width: 100%;
+    width: 100%;
     background-color: #222;
 }
 
@@ -84,13 +84,16 @@
     width: 80%;
     margin: 0 auto;
     gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
-    padding-bottom: 50px;
+    padding: 30px 0;
 }
 
 /* subtitulo da sessão */
 .more-games h2 {
     color: white;
+    margin: 0;
     font-size: 8vmin;
 }
 
@@ -132,6 +135,11 @@
     /* ajuste div de texto primeiro container */
     .text-container {
         width: 80%;
+    }
+
+    .img-game{
+        width: 80%;
+        height: auto;
     }
 
     .info-game {
