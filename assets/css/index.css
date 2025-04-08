@@ -252,7 +252,7 @@
     font-weight: 700;
     color: white;
     padding: 1.5vmin 3vmin;
-    border-radius: 5vmin;
+    border-radius: 30px;
     margin-bottom: 2rem;
 }
 
@@ -262,7 +262,7 @@
     height: auto;
     color: black;
     background-color: rgba(12, 245, 116, 1);
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 /* div inscrição de programadores */
@@ -271,7 +271,7 @@
     height: auto;
     color: white;
     background-color: rgba(123, 44, 191, 1);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 /* botão user */
@@ -297,7 +297,7 @@
         align-items: center;
         justify-content: space-evenly;
         width: 100%;
-        gap: 3vmin;
+        gap: 4vmin;
         padding: 0px;
         box-sizing: border-box;
         text-align: center;
@@ -330,7 +330,7 @@
     /* ajuste das bordas */
     .user,
     .new-creator {
-        border-radius: 5vmin;
+        border-radius: 10px;
     }
 
     .creators {
