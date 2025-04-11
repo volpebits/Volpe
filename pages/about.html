@@ -12,57 +12,72 @@
 </head>
 
 <body>
-    <!-- cabeçalho -->
-    <div class="content">
+    <div class="backgroundEffect">
+        <!-- cabeçalho -->
         <header id="dashboard">
-            <nav class="menu">
-                <div id="imgholder"><img class="logo" src="../assets/icons/logo 2.png" alt="Volpe"></div>
-                    <a class="button" href="../index.html">Home</a>
-                    <a class="button" href="./games.html">Jogos</a>
-                    <a class="button" href="./about.html">Sobre-Nós</a>
-                    <div class="container_register">
-                    <a class="button" id="register" href="./register.html" ><img id="arrow" src="../assets/icons/seta.png" alt="one arrow">Cadastra-se</a>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="imgholder">
+                <img class="logo" src="../assets/icons/logo 2.png" alt="Volpe">
+            </div>
+            <nav class="menu" id="menu">
+                <ul class="menu-links">
+                    <li><a class="button" href="../index.html">Home</a></li>
+                    <li><a class="button" href="./games.html">Jogos</a></li>
+                    <li><a class="button" href="./about.html">Sobre Nós</a></li>
+                </ul>
+                <div class="menu-register">
+                    <a class="button" id="register" href="login.html">
+                        <img id="arrow" src="../assets/icons/seta.png" alt="onearrow" />Login
+                    </a>
                 </div>
             </nav>
         </header>
-        
+
         <!-- div de informações nossa -->
         <main id="container_about">
             <div class="container">
                 <h1>Um projeto independente e nacional</h1>
-                    <p>
+                <p>
                     Somos mais do que uma plataforma de jogos — somos um movimento.
-                    Nosso projeto nasceu da paixão pelos games e do desejo de fortalecer a cena gamer nacional, oferecendo
+                    Nosso projeto nasceu da paixão pelos games e do desejo de fortalecer a cena gamer nacional,
+                    oferecendo
                     um palco exclusivo para jogos desenvolvidos por talentos brasileiros. Acreditamos que o Brasil é um
                     berço de criatividade, onde cada jogo carrega não apenas códigos e gráficos, mas também histórias,
                     culturas e sonhos.</p>
-                    <p>
-                    Aqui, criadores independentes ganham voz, e jogadores têm a oportunidade de explorar mundos inéditos,
+                <p>
+                    Aqui, criadores independentes ganham voz, e jogadores têm a oportunidade de explorar mundos
+                    inéditos,
                     repletos de identidade e inovação. Queremos conectar quem cria com quem joga, construindo uma ponte
                     sólida para um mercado nacional cada vez mais forte e reconhecido.
-                    A cada clique, a cada novo lançamento, estamos impulsionando o futuro dos games no Brasil — e você faz
+                    A cada clique, a cada novo lançamento, estamos impulsionando o futuro dos games no Brasil — e você
+                    faz
                     parte disso.</p>
-                    <p>Jogue nacional. Apoie local. Cresça global.</p>
+                <p>Jogue nacional. Apoie local. Cresça global.</p>
+                <div class="avatars">
                     <img src="../assets/images/avatars.png" alt="avatars dos criadores.">
-            </div>
-            <div class="avatars">
+                </div>
             </div>
         </main>
-
-        <!-- rodapé -->
-        <footer id="foot">
-            <div class="about">
-                <p>&copy; 2025. Todos os direitos reservados à Volpe.</p>
-            </div>
-            <div class="socialmedia">
-                <a href="https://x.com/volpebits" target="_blank"><img class="foot_icons" src="../assets/icons/new-twitter.png" alt="twitter"></a>
-                <a href="https://discord.gg/FdShYCNs" target="_blank"><img class="foot_icons" src="../assets/icons/discord.png" alt="discord"></a>
-                <a href="https://www.instagram.com/volp.ebits/" target="_blank"><img class="foot_icons" src="../assets/icons/instagram.png" alt="instagram"></a>
-            </div>
-        </footer>
     </div>
-
+    <!-- rodapé -->
+    <footer id="foot">
+        <div class="about">
+            <p>&copy; 2025. Todos os direitos reservados à Volpe.</p>
+        </div>
+        <div class="socialmedia">
+            <a href="https://x.com/volpebits" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/new-twitter.png" alt="twitter"></a>
+            <a href="https://discord.gg/BCZkaWKTdX" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/discord.png" alt="discord"></a>
+            <a href="https://www.instagram.com/volp.ebits/" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/instagram.png" alt="instagram"></a>
+        </div>
+    </footer>
+    <script src="../assets/scripts/script.js"></script>
 </body>
-
 
 </html>

@@ -1,87 +1,115 @@
 /* container de conteúdo da página*/
-.context{
-    width: 40%;
+
+#register {
+    display: none;
+}
+
+.context {
+    width: 100%;
+    padding: 0 1.5rem;
     align-items: center;
     text-align: center;
-    margin-left: 5%;
 }
 
 /* div que centraliza os itens lado a lado */
-.content_register{
+.content_register {
     display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
 }
 
 /* titulo da pagina */
-.context h1{
-    font-size: 64px;
+.context h1 {
+    font-size: 10vmin;
     color: white;
 }
 
 /* texto de informações */
-.context h2{
-    font-size: 48px;
+.context h2 {
+    font-size: 8vmin;
     color: white;
 }
 
 /* container formulário */
-#form-register{
-    margin-left: 10%;
-    width: 40%;
+#form-register {
+    width: 60%;
     height: 100%;
     background-color: rgba(12, 245, 116, 1);
-    border-radius: 5%;
-    font-size: 30px;
-    font-weight: 600;
+    border-radius: 5vmin;
 }
 
 /* titulo do form */
-#form-register h2{
+#form-register h2 {
+    padding: 0 1.5rem;
+    font-size: 6vmin;
+    margin-bottom: 0;
     text-align: center;
-    font-size: 33px;
 }
 
 /* info do form */
-#form-register h3{
+#form-register h3 {
+    margin-top: 0;
+    padding: 0 1.5rem;
+    font-size: 3.5vmin;
     text-align: center;
-    font-size: 25px;
 }
 
 /* nome do campo do form */
-label{
-    margin-left: 5%;
+label {
+    font-size: 3vmin;
+    padding: 2rem 1.5rem;
+    font-weight: 700;
 }
 
 /* entrada de texto */
 input {
-    font-size: 24px;
-    margin-left: 5%;
+    padding: 1.5rem;
+    padding-bottom: 0;
+    font-size: 2.8vmin;
+    font-weight: 600;
     background-color: transparent;
-    text-decoration:underline;
+    /* text-decoration: underline; */
     width: 80%;
-    padding: 10px 5px 5px;
     border: none;
     outline: none;
-    border-radius: 15px;
+}
+
+hr{
+    border: none;
+    height: 1.5px;
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+    background-color: grey;
 }
 
 /* botão de enviar */
-#button_submit{
+#button_submit {
     margin-left: 10%;
-    margin-top: 5%;
-    background-color: rgba(123,44,191,1);
+    padding: 1 1.5rem;
+    background-color: rgba(123, 44, 191, 1);
     width: 80%;
-    font-size: 25px;
+    font-size: 4vmin;
     cursor: pointer;
     color: white;
-    border-radius: 10px;
+    border-radius: 6vmin;
 }
 
 /* informações de contato */
-#additional h3{
-    color: white;
-    font-size: 25px;
+#additional h3 {
+    font-size: 3.5vmin;
+    color: black;
+    font-weight: 600;
 }
 
+@media(max-width:1000px) {
+    .content_register {
+        display: flex;
+        flex-direction: column;
+    }
 
+    #form-register {
+        width: 80%;
+    }
+}

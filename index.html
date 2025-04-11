@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,98 +9,127 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/index.css">
-    
-    
+
+
 </head>
+
 <body>
-    
     <!-- cabeçalho -->
-    <div class="content">
+    <div class="backgroundEffect ">
         <header id="dashboard">
-            <nav class="menu">
-                <div id="imgholder"><img class="logo" src="../assets/icons/logo 2.png" alt="Volpe"></div>
-                    <a class="button" href="./index.html">Home</a>
-                    <a class="button" href="./pages/games.html">Jogos</a>
-                    <a class="button" href="./pages/about.html">Sobre-Nós</a>
-                    <div class="container_register">
-                        <a class="button" id="register" href="./pages/register.html" ><img id="arrow" src="../assets/icons/seta.png" alt="one arrow">Cadastra-se</a>
-                    </div>
-                </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="imgholder">
+                <img class="logo" src="../assets/icons/logo 2.png" alt="Volpe">
+            </div>
+            <nav class="menu" id="menu">
+                <ul class="menu-links">
+                    <li><a class="button" href="./index.html">Home</a></li>
+                    <li><a class="button" href="./pages/games.html">Jogos</a></li>
+                    <li><a class="button" href="./pages/about.html">Sobre Nós</a></li>
+                </ul>
+                <div class="menu-register">
+                    <a class="button" id="register" href="./pages/login.html">
+                        <img id="arrow" src="../assets/icons/seta.png" alt="onearrow" />Login
+                    </a>
+                </div>
+            </nav>
         </header>
-    
-    <!-- contéudo da página -->
-    <div class="container">
-        <div class="text-content">
-            <h1>O futuro dos jogos nacionais está aqui</h1>
-            <h2>Explore, apoie e jogue os melhores games desenvolvidos no Brasil.</h2>
-            <a id="find-more" href="./pages/about.html">Saiba mais</a>
-        </div>
-        <div class="image-home">
-            <img id="image-home" src="./assets/images/image home.png" alt="heroi the game">
+
+        <!-- contéudo da página -->
+        <div class="container">
+            <div class="text-content">
+                <h1>O futuro dos jogos nacionais está aqui</h1>
+                <h2>Explore, apoie e jogue os melhores games desenvolvidos no Brasil.</h2>
+                <a id="find-more" href="./pages/about.html">Saiba mais</a>
+            </div>
+            <div class="image-home">
+                <img id="image-home" src="./assets/images/image home.png" alt="heroi the game">
+            </div>
         </div>
     </div>
-
     <div class="recomendation">
-        <img id="recomendation-img" src="./assets/images/Hell clock.jpg" alt="hell clock game">
+        <a href="./pages/games.html">
+            <img id="recomendation-img" src="./assets/images/Hell clock.jpg" alt="hell clock game">
+        </a>
+        <div class="text_legend">
+            <h2>HellClock: Mergulhe na Guerra de Canudos Reimaginada</h2>
+            <p>Em Hell Clock, você encarna Pajeú, um ex-escravo e guerreiro determinado a resgatar seu mentor,
+                Antônio
+                Conselheiro, das garras de forças sobrenaturais. </p>
+        </div>
     </div>
-
     <!-- Carrosel de imagens -->
     <div class="container-carousel">
         <div class="text-carousel">
-            <h2>Explore o  Brasil Gamer</h2>
-            <h3>Dos clássicos aclamados aos lançamentos promissores — descubra o poder criativo da cena gamer nacional.</h3>
+            <h2>Explore o Brasil Gamer</h2>
+            <h3>Dos clássicos aclamados aos lançamentos promissores — descubra o poder criativo da cena gamer
+                nacional.
+            </h3>
         </div>
-    <div class="carousel">
-        <div class="carousel-track">
-            <img src="./assets/images/Dandara.jpg" alt="Imagem 1">
-            <img src="./assets/images/MARS 2120.jpg" alt="Imagem 2">
-            <img src="./assets/images/Horizon Chase Turbo.jpg" alt="Imagem 3">
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="./assets/images/Dandara.jpg" alt="Imagem 1">
+                <img src="./assets/images/MARS 2120.jpg" alt="Imagem 2">
+                <img src="./assets/images/Horizon Chase Turbo.jpg" alt="Imagem 3">
+            </div>
         </div>
     </div>
-    </div>
-
     <!-- container por trás dos controles -->
     <div class="container-control">
         <div class="text-control">
             <h2>Por trás dos controles</h2>
             <h3>As mentes brilhantes que estão redefinindo o que significa criar jogos no Brasil.</h3>
         </div>
-
-        <!-- div dos criadores dos jogos -->
-        <div class="creators">
-            <div class="ator">
-                <img src="./assets/Creators img/Lucas Almeida.png" alt="Lucas Almeida">
-                <h2>Lucas Almeida</h2>
-                <h3>Criador de Terra Selvagem</h3>
-                <p>Finalmente temos um espaço dedicado ao talento brasileiro no mundo dos games! ‘Terra Selvagem’ foi um sonho que nasceu pequeno, mas agora, com essa plataforma, sinto que alcançamos um público que realmente valoriza o que criamos. É um novo capítulo para todos nós, desenvolvedores nacionais</p>
-            </div>
-            <div class="ator">
-                <img src="./assets/Creators img/Gustavo Ferreira.png" alt="Gustavo Ferreira">
-                <h2>Gustavo Ferreira</h2>
-                <h3>Criador de Terra Selvagem</h3>
-                <p>Sempre sonhei em trazer as histórias do Brasil para o universo dos games, e com ‘Crônicas do Cerrado’ pude fazer isso. Saber que existe um lugar que valoriza nossa cultura e dá palco para nossos jogos é inspirador.</p>
-            </div>
-            <div class="ator">
-                <img src="./assets/Creators img/Ana rodrigues.png" alt="Ana Rodrigues">
-                <h2>Ana Rodrigues</h2>
-                <h3>Criadora de Luzes de neon</h3>
-                <p>Ver ‘Luzes de Neon’ sendo destaque em uma plataforma focada em jogos nacionais é emocionante. Nós, criadores independentes, muitas vezes lutamos para encontrar visibilidade — mas agora, sinto que fazemos parte de algo maior. O cenário gamer brasileiro só tende a crescer daqui pra frente</p>
-            </div>
+    </div>
+    <!-- div dos criadores dos jogos -->
+    <div class="creators">
+        <div class="ator">
+            <img src="./assets/Creators img/Lucas Almeida.png" alt="Lucas Almeida">
+            <h2>Lucas Almeida</h2>
+            <h3>Criador de Terra Selvagem</h3>
+            <p>Finalmente temos um espaço dedicado ao talento brasileiro no mundo dos games! ‘Terra Selvagem’
+                foi um
+                sonho que nasceu pequeno, mas agora, com essa plataforma, sinto que alcançamos um público que
+                realmente valoriza o que criamos. É um novo capítulo para todos nós, desenvolvedores nacionais
+            </p>
         </div>
-
-        <!-- div de chamada de inscrição final da pagina -->
-        <div class="sub">
-            <div class="user">
-                <h2>Fique por dentro e inscreva-se</h2>
-                <p>Não perca nenhum lançamento. Receba notícias exclusivas sobre os próximos jogos nacionais</p>
-                <a href="./pages/register.html">Me avise quando lançarem</a>
-            </div>
-            <div class="new-creator">
-                <h2>Crie o Futuro dos 
-                    Games Conosco!</h2>
-                <p>Você é desenvolvedor de jogos? Estamos construindo a maior vitrine para o mercado gamer nacional — e queremos você aqui.</p>
-                <a href="./pages/register.html">Quero Fazer Parte!</a>
-            </div>
+        <div class="ator">
+            <img src="./assets/Creators img/Gustavo Ferreira.png" alt="Gustavo Ferreira">
+            <h2>Gustavo Ferreira</h2>
+            <h3>Criador de Terra Selvagem</h3>
+            <p>Sempre sonhei em trazer as histórias do Brasil para o universo dos games, e com ‘Crônicas do
+                Cerrado’
+                pude fazer isso. Saber que existe um lugar que valoriza nossa cultura e dá palco para nossos
+                jogos é
+                inspirador.</p>
+        </div>
+        <div class="ator">
+            <img src="./assets/Creators img/Ana rodrigues.png" alt="Ana Rodrigues">
+            <h2>Ana Rodrigues</h2>
+            <h3>Criadora de Luzes de neon</h3>
+            <p>Ver ‘Luzes de Neon’ sendo destaque em uma plataforma focada em jogos nacionais é emocionante.
+                Nós,
+                criadores independentes, muitas vezes lutamos para encontrar visibilidade — mas agora, sinto que
+                fazemos parte de algo maior. O cenário gamer brasileiro só tende a crescer daqui pra frente</p>
+        </div>
+    </div>
+    <!-- div de chamada de inscrição final da pagina -->
+    <div class="sub">
+        <div class="user">
+            <h2>Fique por dentro e inscreva-se</h2>
+            <p>Não perca nenhum lançamento. Receba notícias exclusivas sobre os próximos jogos nacionais</p>
+            <a href="./pages/register.html">Me avise quando lançarem</a>
+        </div>
+        <div class="new-creator">
+            <h2>Crie o Futuro dos
+                Games Conosco!</h2>
+            <p>Você é desenvolvedor de jogos? Estamos construindo a maior vitrine para o mercado gamer nacional — e
+                queremos você aqui.</p>
+            <a href="./pages/register.html">Quero Fazer Parte!</a>
         </div>
     </div>
 
@@ -109,12 +139,15 @@
             <p>&copy; 2025. Todos os direitos reservados à Volpe.</p>
         </div>
         <div class="socialmedia">
-            <a href="https://x.com/volpebits" target="_blank"><img class="foot_icons" src="../assets/icons/new-twitter.png" alt="twitter"></a>
-            <a href="https://discord.gg/FdShYCNs" target="_blank"><img class="foot_icons" src="../assets/icons/discord.png" alt="discord"></a>
-            <a href="https://www.instagram.com/volp.ebits/" target="_blank"><img class="foot_icons" src="../assets/icons/instagram.png" alt="instagram"></a>
+            <a href="https://x.com/volpebits" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/new-twitter.png" alt="twitter"></a>
+            <a href="https://discord.gg/BCZkaWKTdX" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/discord.png" alt="discord"></a>
+            <a href="https://www.instagram.com/volp.ebits/" target="_blank">
+                <img class="foot_icons" src="../assets/icons/instagram.png" alt="instagram"></a>
         </div>
     </footer>
-</div>
-    
+    <script src="./assets/scripts/script.js"></script>
 </body>
+
 </html>

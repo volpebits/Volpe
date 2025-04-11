@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,41 +9,58 @@
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/games.css">
-    
-    
+
+
 </head>
+
 <body>
-    <!-- cabeçalho -->
-    <div class="content">
+    <div class="backgroundEffect">
+        <!-- cabeçalho -->
         <header id="dashboard">
-            <nav class="menu">
-                <div id="imgholder"><img class="logo" src="../assets/icons/logo 2.png" alt="Volpe"></div>
-                    <a class="button" href="../index.html">Home</a>
-                    <a class="button" href="../pages/games.html">Jogos</a>
-                    <a class="button" href="../pages/about.html">Sobre-Nós</a>
-                    <div class="container_register">
-                        <a class="button" id="register" href="../pages/register.html" ><img id="arrow" src="../assets/icons/seta.png" alt="one arrow">Cadastra-se</a>
-                    </div>
-                </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="imgholder">
+                <img class="logo" src="../assets/icons/logo 2.png" alt="Volpe">
+            </div>
+            <nav class="menu" id="menu">
+                <ul class="menu-links">
+                    <li><a class="button" href="../index.html">Home</a></li>
+                    <li><a class="button" href="./games.html">Jogos</a></li>
+                    <li><a class="button" href="./about.html">Sobre Nós</a></li>
+                </ul>
+                <div class="menu-register">
+                    <a class="button" id="register" href="login.html">
+                        <img id="arrow" src="../assets/icons/seta.png" alt="onearrow" />Login
+                    </a>
+                </div>
+            </nav>
         </header>
 
-
-    <!-- contéudo da página -->
-    <div class="container">
-        <div class="video-container"><video autoplay controls muted src="../assets/video/roguesnail_54358480.mp4"></video></div>
-        <div class="text-container">
-            <h1>Hell Clock: Reescreva a História na Guerra de Canudos</h1>
-            <h2>Mergulhe em um ARPG roguelite desafiador que combina ação intensa e narrativa envolvente.</h2>
+        <!-- contéudo da página -->
+        <div class="container">
+            <div class="video-container"><video autoplay controls muted
+                    src="../assets/video/roguesnail_54358480.mp4"></video></div>
+            <div class="text-container">
+                <h1>Hell Clock: Reescreva a História na Guerra de Canudos</h1>
+                <h2>Mergulhe em um ARPG roguelite desafiador que combina ação intensa e narrativa envolvente.</h2>
+            </div>
         </div>
     </div>
-    
     <!-- informações do jogo -->
     <div class="info-game">
-        <div class="info-text">
-            <p>Em Hell Clock, você assume o papel de Pajeú, um ex-escravo e guerreiro destemido, determinado a resgatar seu mentor, Antônio    Conselheiro, das forças sobrenaturais que assolam a região. Este jogo oferece uma experiência única ao combinar elementos de ARPG com mecânicas de roguelite, proporcionando combates intensos e desafiadores. 
-                Com uma narrativa profunda ambientada em uma versão sombria da Guerra de Canudos, os jogadores enfrentarão demônios e criaturas místicas enquanto exploram masmorras traiçoeiras. A dublagem em português e a riqueza de detalhes culturais tornam Hell Clock uma jornada imperdível para os fãs de ação e história.</p>
-        </div>
-        <div class="img-game"><img src="../assets/images/frame-games.png" alt="hell clock image"></div>
+        <p class="info-text">Em Hell Clock, você assume o papel de Pajeú, um ex-escravo e guerreiro destemido,
+            determinado a resgatar
+            seu mentor, Antônio Conselheiro, das forças sobrenaturais que assolam a região. Este jogo oferece uma
+            experiência única ao combinar elementos de ARPG com mecânicas de roguelite, proporcionando combates
+            intensos e desafiadores.
+            Com uma narrativa profunda ambientada em uma versão sombria da Guerra de Canudos, os jogadores
+            enfrentarão demônios e criaturas místicas enquanto exploram masmorras traiçoeiras. A dublagem em
+            português e a riqueza de detalhes culturais tornam Hell Clock uma jornada imperdível para os fãs de ação
+            e história.</p>
+        <img class="img-game" < src="../assets/images/frame-games.png" alt="hell clock image">
     </div>
 
     <!-- mais jogos -->
@@ -50,23 +68,94 @@
         <div class="text-more-games">
             <h2>Explore também outros trabalhos incríveis!</h2>
         </div>
-        <div class="more-container"><img src="../assets/images/Dandara.jpg" alt="" srcset=""></div>
-        <div class="more-container"><img src="../assets/images/Horizon Chase Turbo.jpg" alt="" srcset=""></div>
-        <div class="more-container"><img src="../assets/images/MARS 2120.jpg" alt="" srcset=""></div>
-        <div class="more-container"><img src="../assets/images/Ruff Ghanor.jpg" alt="" srcset=""></div>
+        <!-- div dandara -->
+        <div class="more-container"><img src="../assets/images/Dandara.jpg" alt="" srcset="">
+            <h3 class="game-text">Dandara é um jogo de plataforma e metroidvania 2D desenvolvido pelo estúdio
+                brasileiro
+                Long Hat House e publicado pela Raw Fury. A personagem principal do jogo mineiro, Dandara, é baseada
+                na
+                guerreira negra Dandara dos Palmares, escrava fugitiva e esposa de Zumbi dos Palmares, que lutou
+                contra
+                o sistema escravista.</h3>
+        </div>
+        <!-- Div horizon chase -->
+        <div class="more-container"><img src="../assets/images/Horizon Chase Turbo.jpg" alt="" srcset="">
+            <h3 class="game-text">Horizon Chase Turbo é um jogo de corrida inspirado nos clássicos dos anos 80 e 90,
+                como Out Run e Top Gear. Desenvolvido pela Aquiris Game Studio, oferece jogabilidade arcade com
+                gráficos
+                de 16 bits reinventados, permitindo corridas emocionantes em diversos cenários ao redor do mundo.
+            </h3>
+        </div>
+        <!-- div mars 2120 -->
+        <div class="more-container"><img src="../assets/images/MARS 2120.jpg" alt="" srcset="">
+            <h3 class="game-text">MARS 2120 é um metroidvania com combate corpo a corpo envolvente. Com o uso de
+                habilidades especiais ligadas a elementos como gelo, fogo e eletricidade, ajude a Sargento Anna
+                “Thirteen” Charlotte a navegar pela colônia e a abrir caminho pelos segredos de Marte.</h3>
+        </div>
+        <!-- div ruff ghanor -->
+        <div class="more-container"><img src="../assets/images/Ruff Ghanor.jpg" alt="" srcset="">
+            <h3 class="game-text">Ruff Ghanor é um jogo Deckbuilder com elementos de Roguelite, onde cada carta
+                coletada
+                representa uma ação crucial em sua jornada. Monte o baralho perfeito, planeje suas estratégias e
+                crie
+                sinergias poderosas à medida que avança para enfrentar o seu destino.</h3>
+        </div>
+        <!-- div minoria -->
+        <div class="more-container"><img src="../assets/images/minoria.png" alt="" srcset="">
+            <h3 class="game-text">Minoria é um jogo de ação e aventura desenvolvido pela Bombservice. Ambientado em
+                um
+                mundo sombrio, os jogadores controlam uma jovem guerreira em uma missão para combater forças do mal,
+                utilizando habilidades de combate e magia.</h3>
+        </div>
+        <!-- div out there somewhere -->
+        <div class="more-container"><img src="../assets/images/out there somewhere.png" alt="" srcset="">
+            <h3 class="game-text">Out There Somewhere é um jogo de plataforma e quebra-cabeça desenvolvido pela
+                MiniBoss. Os jogadores assumem o papel de um astronauta que, após cair em um planeta desconhecido,
+                deve
+                usar uma arma de teletransporte para superar obstáculos e inimigos enquanto tenta consertar sua
+                nave.
+            </h3>
+        </div>
+        <!-- div a lenda do héroi -->
+        <div class="more-container"><img src="../assets/images/a lenda do héroi.png" alt="" srcset="">
+            <h3 class="game-text">A Lenda do Herói é um jogo de plataforma brasileiro inspirado nos clássicos do
+                gênero.
+                Desenvolvido pelo estúdio Dumativa, destaca-se por sua trilha sonora dinâmica que narra as ações do
+                jogador em tempo real, proporcionando uma experiência única e humorística.
+            </h3>
+        </div>
+        <!-- div momodora -->
+        <div class="more-container"><img src="../assets/images/momodora.png" alt="" srcset="">
+            <h3 class="game-text">Momodora é uma série de jogos de ação e plataforma criada por rdein. Os jogadores
+                exploram ambientes diversos, enfrentando inimigos e chefes desafiadores, com uma forte ênfase na
+                atmosfera e na narrativa minimalista.
+            </h3>
+        </div>
+        <!-- div hazel -->
+        <div class="more-container"><img src="../assets/images/hazel.png" alt="" srcset="">
+            <h3 class="game-text">A história acompanha Shane, um jovem engenheiro da cidade flutuante de Gideon, que
+                enfrenta provas em uma ilha distante para se tornar um Engenheiro. O jogo combina exploração,
+                resolução
+                de puzzles e uma narrativa introspectiva sobre destino e desejo.
+            </h3>
+        </div>
     </div>
-
     <!-- rodapé -->
     <footer id="foot">
         <div class="about">
             <p>&copy; 2025. Todos os direitos reservados à Volpe.</p>
         </div>
         <div class="socialmedia">
-            <a href="https://x.com/volpebits" target="_blank"><img class="foot_icons" src="../assets/icons/new-twitter.png" alt="twitter"></a>
-            <a href="https://discord.gg/FdShYCNs" target="_blank"><img class="foot_icons" src="../assets/icons/discord.png" alt="discord"></a>
-            <a href="https://www.instagram.com/volp.ebits/" target="_blank"><img class="foot_icons" src="../assets/icons/instagram.png" alt="instagram"></a>
+            <a href="https://x.com/volpebits" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/new-twitter.png" alt="twitter"></a>
+            <a href="https://discord.gg/BCZkaWKTdX" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/discord.png" alt="discord"></a>
+            <a href="https://www.instagram.com/volp.ebits/" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/instagram.png" alt="instagram"></a>
         </div>
-        </footer>
-</div>
+    </footer>
+
+    <script src="../assets/scripts/script.js"></script>
 </body>
+
 </html>

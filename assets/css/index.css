@@ -1,4 +1,9 @@
 /* primeiro container de informações */
+
+body{
+    background-color: #222 ;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -6,6 +11,10 @@
     width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
 }
 
 /* div dos textos */
@@ -13,25 +22,34 @@
     width: 50%;
     text-align: center;
     margin-right: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 /* titulo da pagina */
 .text-content h1 {
-    font-size: 72px;
+    font-size: 9vmin;
     color: rgba(58, 12, 163, 1);
+    margin: 0;
 }
 
 /* informações */
 .text-content h2 {
-    font-size: 40px;
+    font-size: 5vmin;
     color: white;
+    margin: 0;
 }
 
 /* botão saiba mais */
 #find-more {
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 3vmin;
     font-weight: 600;
     color: white;
     padding: 15px 30px;
@@ -43,6 +61,7 @@
 /* imagem lateral dos textos */
 #image-home {
     height: 900px;
+    height: 100vh;
 }
 
 /* fim do container  */
@@ -60,9 +79,38 @@
 }
 
 /* tamanho da imagem */
+.recomendation img {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    margin: 5% 10%;
+}
+
+/* formato da imagem */
 #recomendation-img {
     border-radius: 10px;
     width: 100%;
+    display: block;
+}
+
+/* texto do elemento recomendado */
+.text_legend {
+    color: white;
+    font-size: 2vmin;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 10% 10%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* ação de hover */
+.recomendation:hover .text_legend {
+    opacity: 1;
 }
 
 /* carrossel de imagens */
@@ -75,18 +123,18 @@
 
 /* div texto do carrosel de imagens */
 .text-carousel {
-    width: 75%;
+    width: 80%;
 }
 
 /* titulo do carrosel */
 .text-carousel h2 {
-    font-size: 60px;
+    font-size: 9vmin;
     color: white;
 }
 
 /* texto secudanrio do carrosel */
 .text-carousel h3 {
-    font-size: 36px;
+    font-size: 5vmin;
     color: white;
 }
 
@@ -94,6 +142,7 @@
 .carousel {
     width: 70%;
     height: 600px;
+    width: 80%;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -150,7 +199,7 @@
 
 /* texto secundario */
 .text-control h3 {
-    font-size: 34px;
+    font-size: 5vmin;
     color: white;
 }
 
@@ -162,11 +211,17 @@
     /* height: 500px; */
     background-color: rgba(12, 245, 116, 1);
     overflow: hidden;
+    width: 80%;
+    margin: 1.5rem auto;
+    overflow: hidden;
+    background-color: rgba(12, 245, 116, 1);
+    border-radius: 10px;
 }
 
 /* imagem dos criadores */
 .creators img {
     margin-top: 10%;
+    padding: 1rem 0;
     width: 100px;
     height: 100px;
 }
@@ -174,7 +229,14 @@
 /* div separando cada criador */
 .ator {
     width: 30%;
+    padding: 0 1.5rem;
 }
+
+.creators p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 
 /* container inscreva-se */
 .sub {
@@ -267,6 +329,130 @@
     border: 2px solid rgba(12, 245, 116, 1);
     border-radius: 30px;
     margin-bottom: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 5vmin 5vmin 5vmin;
+}
+
+/* formato dos dois blocos */
+.user,
+.new-creator {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+/* texto chamada */
+.sub h2 {
+    margin: 1rem 0;
+    font-size: 7vmin;
+    font-weight: 900;
+}
+
+/* texto explicativo */
+.sub p {
+    margin: 0;
+    font-size: 4vmin;
+    height: auto;
+    font-weight: 600;
+}
+
+/* botão */
+.sub a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vmin;
+    font-weight: 600;
+    color: white;
+    padding: 1.5vmin 3vmin;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+/* div users */
+.user {
+    width: 50%;
+    height: auto;
+    color: black;
+    background-color: rgba(12, 245, 116, 1);
+    border-radius: 10px 0px 0px 10px;
+}
+
+/* div inscrição de programadores */
+.new-creator {
+    width: 50%;
+    height: auto;
+    color: white;
+    background-color: rgba(123, 44, 191, 1);
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* botão user */
+.user a {
+    background-color: rgba(123, 44, 191, 1);
+}
+
+/* botão new creator */
+.new-creator a {
+    color: black;
+    background-color: rgba(12, 245, 116, 1);
 }
 
 /* fim da página */
+
+/* responsividade */
+@media (max-width: 1000px) {
+
+    /* ajuste topo da tela */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    /* imagem do topo */
+    .image-home {
+        width: 80%;
+    }
+
+    #image-home {
+        width: 100%;
+        height: auto;
+    }
+
+    /* div subs */
+    .sub {
+        gap: 3vmin;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* ajuste das bordas */
+    .user,
+    .new-creator {
+        border-radius: 10px;
+    }
+
+    .creators {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 1.5rem auto;
+        background-color: rgba(12, 245, 116, 1);
+        border-radius: 10px;
+    }
+
+}
