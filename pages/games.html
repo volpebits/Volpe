@@ -14,11 +14,31 @@
 </head>
 
 <body>
-    <div id="header">
-        <!-- carrega o header -->
-    </div>
-
     <div class="backgroundEffect">
+        <!-- cabeçalho -->
+        <header id="dashboard">
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="imgholder">
+                <img class="logo" src="../assets/icons/logo 2.png" alt="Volpe">
+            </div>
+            <nav class="menu" id="menu">
+                <ul class="menu-links">
+                    <li><a class="button" href="/index.html">Home</a></li>
+                    <li><a class="button" href="/pages/games.html">Jogos</a></li>
+                    <li><a class="button" href="/pages/about.html">Sobre Nós</a></li>
+                </ul>
+                <div class="menu-register">
+                    <a class="button" id="register" href="/pages/register.html">
+                        <img id="arrow" src="../assets/icons/seta.png" alt="onearrow" />Cadastre-se
+                    </a>
+                </div>
+            </nav>
+        </header>
+
         <!-- contéudo da página -->
         <div class="container">
             <div class="video-container"><video autoplay controls muted
@@ -120,12 +140,22 @@
             </h3>
         </div>
     </div>
-    <div id="footer">
-        <!-- carrega o footer -->
-    </div>
+    <!-- rodapé -->
+    <footer id="foot">
+        <div class="about">
+            <p>&copy; 2025. Todos os direitos reservados à Volpe.</p>
+        </div>
+        <div class="socialmedia">
+            <a href="https://x.com/volpebits" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/new-twitter.png" alt="twitter"></a>
+            <a href="https://discord.gg/BCZkaWKTdX" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/discord.png" alt="discord"></a>
+            <a href="https://www.instagram.com/volp.ebits/" target="_blank"><img class="foot_icons"
+                    src="../assets/icons/instagram.png" alt="instagram"></a>
+        </div>
+    </footer>
 
-    <script src="/assets/scripts/script.js"></script>
-    <script src="/assets/scripts/load-components.js"></script>
+    <script src="../assets/scripts/script.js"></script>
 </body>
 
 </html>

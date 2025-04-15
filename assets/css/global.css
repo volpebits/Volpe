@@ -13,7 +13,14 @@ body {
   font-family: "Saira", sans-serif;
 }
 
-/* Animação de fundo */
+.backgroundEffect  {
+  background: rgb(12, 245, 116);
+  background: linear-gradient(153deg, rgba(12, 245, 116, 1) 18%, rgba(123, 44, 191, 1) 69%);
+}
+
+
+
+/* Animação de fundo
 @keyframes rotateBackground {
   0% {
     background-position: 0% 50%;
@@ -34,4 +41,4 @@ body {
   background-size: 200% 200%;
   animation: rotateBackground 5s ease-in-out infinite;
   background-repeat: no-repeat;
-}
+} */
