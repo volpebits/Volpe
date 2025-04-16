@@ -1,16 +1,23 @@
 /* div do rodapé */
+
+#footer_container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #222;
+}
+
 #foot {
+    margin:0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 80%;
     padding: 2vmin 0;
-    background-color: #222;
+
 }
 
 /* div que contém todos os itens */
 .about {
-    flex: 3;
     display: flex;
     align-items: center;
 }
@@ -18,15 +25,12 @@
 /* texto de copyright */
 #foot p {
     font-size: 2.5vmin;
-    padding: 0 1rem;
     color: white;
-    margin-left: 10px;
 }
 
 /* div dos icones de redes sociais */
 .socialmedia {
     display: flex;
-    margin-right: 5%;
     gap: 20px;
     align-items: center;
 }
@@ -60,7 +64,4 @@
         margin: 0;
     }
 
-    .socialmedia {
-        margin-right: 0;
-    }
 }
