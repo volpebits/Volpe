@@ -1,4 +1,4 @@
-// Menu Hamburguer
+// Função que ativa e desativa o Menu Hamburguer
 function ativarMenuHamburguer() {
     const toggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
