@@ -1,13 +1,27 @@
-// carregar o html do header
+// Menu Hamburguer
+function ativarMenuHamburguer() {
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+    const spans = toggle.querySelectorAll("span");
+    
+    toggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+        toggle.classList.toggle('open');
+        
+        spans[0].classList.toggle("rotate-down");
+        spans[1].classList.toggle("fade-out");
+        spans[2].classList.toggle("rotate-up");
+    });
+}
 
+// carregar o html do header
 function carregarHeader() {
     fetch("/src/components/header.html")
-        .then(response => response.text()) //transforma o html em texto
+        .then(response => response.text())
         .then(html => {
-            //insere o html na div desejada.
             document.getElementById("header").innerHTML = html;
+            ativarMenuHamburguer(); // ⚡ só chama aqui depois do header existir
         })
-
         .catch(error => console.error("Erro ao carregar header", error));
 }
 
