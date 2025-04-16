@@ -1,4 +1,5 @@
 /* Dashboard */
+
 /* Botão hambúrguer */
 .menu-toggle {
     display: none;
@@ -132,7 +133,7 @@
         top: 20px;
     }
 
-    #arrow {
+    #arrow{
         display: none;
     }
 
