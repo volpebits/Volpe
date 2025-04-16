@@ -5,5 +5,58 @@
         "alt" : "Banner do jogo dandara",
         "legenda": "Dandara é um jogo de plataforma e metroidvania 2D desenvolvido pelo estúdio brasileiro Long Hat House e publicado pela Raw Fury. A personagem principal do jogo mineiro, Dandara, é baseada na guerreira negra Dandara dos Palmares, escrava fugitiva e esposa de Zumbi dos Palmares, que lutou contra o sistema escravista"
     }
+
+    ,{
+        "Nome": "Horizon chase turbo",
+        "imagem": "/assets/images/Horizon Chase Turbo.jpg",
+        "alt" : "Banner do jogo Horizon Chase Turbo",
+        "legenda": "Horizon Chase Turbo é um jogo de corrida inspirado nos clássicos dos anos 80 e 90, como Out Run e Top Gear. Desenvolvido pela Aquiris Game Studio, oferece jogabilidade arcade com gráficos de 16 bits reinventados, permitindo corridas emocionantes em diversos cenários ao redor do mundo."
+    }
+
+    ,{
+        "Nome": "Mars 2120",
+        "imagem" : "/assets/images/MARS 2120.jpg",
+        "alt": "Banner do jogo MARS 2120",
+        "legenda" : "MARS 2120 é um metroidvania com combate corpo a corpo envolvente. Com o uso de habilidades especiais ligadas a elementos como gelo, fogo e eletricidade, ajude a Sargento Anna Thirteen Charlotte a navegar pela colônia e a abrir caminho pelos segredos de Marte."
+    }
+
+    ,{
+        "Nome": "Ruff Ghanor",
+        "imagem" : "/assets/images/Ruff Ghanor.jpg",
+        "alt": "Banner do jogo Ruff Ghanor",
+        "legenda" : "Ruff Ghanor é um jogo Deckbuilder com elementos de Roguelite, onde cada carta coletada representa uma ação crucial em sua jornada. Monte o baralho perfeito, planeje suas estratégias e crie sinergias poderosas à medida que avança para enfrentar o seu destino."
+    }
+    
+    ,{
+        "Nome": "Minoria",
+        "imagem" : "/assets/images/Minoria.png",
+        "alt": "Banner do jogo Minoria",
+        "legenda" : "Minoria é um jogo de ação e aventura desenvolvido pela Bombservice. Ambientado em um mundo sombrio, os jogadores controlam uma jovem guerreira em uma missão para combater forças do mal, utilizando habilidades de combate e magia."
+    }
+
+    ,{
+        "Nome": "A lenda do héroi",
+        "imagem" : "/assets/images/a lenda do héroi.png",
+        "alt": "Banner do jogo a lenda do héroi",
+        "legenda" : "A Lenda do Herói é um jogo de plataforma brasileiro inspirado nos clássicos do gênero. Desenvolvido pelo estúdio Dumativa, destaca-se por sua trilha sonora dinâmica que narra as ações do jogador em tempo real, proporcionando uma experiência única e humorística."
+    }
+
+    ,{
+        "Nome": "Momodora",
+        "imagem" : "/assets/images/momodora.png",
+        "alt": "Banner do jogo momodora",
+        "legenda" : "Momodora é uma série de jogos de ação e plataforma criada por rdein. Os jogadores exploram ambientes diversos, enfrentando inimigos e chefes desafiadores, com uma forte ênfase na atmosfera e na narrativa minimalista."
+    }
+
+    ,{
+        "Nome": "Hazel",
+        "imagem" : "/assets/images/hazel.png",
+        "alt": "Banner do jogo Hazel",
+        "legenda" : " história acompanha Shane, um jovem engenheiro da cidade flutuante de Gideon, que enfrenta provas em uma ilha distante para se tornar um Engenheiro. O jogo combina exploração, resolução de puzzles e uma narrativa introspectiva sobre destino e desejo."
+    }
+
+
+
+
 ]
 
