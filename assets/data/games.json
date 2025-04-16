@@ -29,7 +29,7 @@
     
     ,{
         "Nome": "Minoria",
-        "imagem" : "/assets/images/Minoria.png",
+        "imagem" : "/assets/images/minoria.png",
         "alt": "Banner do jogo Minoria",
         "legenda" : "Minoria é um jogo de ação e aventura desenvolvido pela Bombservice. Ambientado em um mundo sombrio, os jogadores controlam uma jovem guerreira em uma missão para combater forças do mal, utilizando habilidades de combate e magia."
     }
