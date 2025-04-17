@@ -60,12 +60,12 @@
 }
 
 /* Botão cadastre-se à direita */
-.menu-register {
+.menu-login {
     display: flex;
     justify-content: flex-end;
 }
 
-#register {
+#login {
     display: flex;
     align-items: center;
 }
