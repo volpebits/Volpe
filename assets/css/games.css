@@ -80,11 +80,9 @@ body {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    gap: 20px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 30px 0;
 }
 
 /* subtitulo da sessão */
@@ -97,6 +95,7 @@ body {
 /* Container para cada imagem */
 .more-container {
     width: 100%;
+    padding: 20px 0;
     display: flex;
     gap: 20px;
     align-items: center;

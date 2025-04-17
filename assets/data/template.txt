@@ -1,0 +1,13 @@
+Preencha as informações dentro das aspas, As informações não
+devem estar ocupando mais de uma linha, ou seja, concetre
+tudo na mesma linha para que o arquivo json fique no formato correto.
+o template tem que ser colado exatamente da forma como esta aqui
+inclusive as virgulas.
+
+
+,{
+        "Nome": "",
+        "imagem" : "",
+        "alt": "",
+        "legenda" : ""
+}
