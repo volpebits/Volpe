@@ -7,10 +7,6 @@ body{
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
     gap: 15px;
     width: 80%;
     margin: 0 auto;
@@ -19,9 +15,6 @@ body{
 
 /* div dos textos */
 .text-content {
-    width: 50%;
-    text-align: center;
-    margin-right: 40px;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -60,7 +53,6 @@ body{
 
 /* imagem lateral dos textos */
 #image-home {
-    height: 900px;
     height: 100vh;
 }
 
@@ -68,18 +60,6 @@ body{
 
 /* container imagem em alta */
 .recomendation {
-    display: flex;
-    width: 70%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    justify-content: center;
-    align-items: center;
-}
-
-/* tamanho da imagem */
-.recomendation img {
     position: relative;
     display: inline-block;
     width: 80%;
@@ -140,8 +120,6 @@ body{
 
 /* formato e tamanho do carrosel */
 .carousel {
-    width: 70%;
-    height: 600px;
     width: 80%;
     overflow: hidden;
     border-radius: 10px;
@@ -150,7 +128,6 @@ body{
 /* imagens do carrosel */
 .carousel img {
     width: 100%;
-    height: 100%;
     object-fit: contain;
 }
 
@@ -183,18 +160,23 @@ body{
 /* fim do carrossel */
 
 /* container por tras do controle */
+
+/* titulo do container */
+.text-control {
+    width: 80%;
+}
+
+.text-control h2 {
+    font-size: 9vmin;
+    color: white;
+}
+
 .container-control {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-/* titulo do container */
-.text-control h2 {
-    font-size: 50px;
-    color: white;
 }
 
 /* texto secundario */
@@ -207,10 +189,6 @@ body{
 .creators {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    /* height: 500px; */
-    background-color: rgba(12, 245, 116, 1);
-    overflow: hidden;
     width: 80%;
     margin: 1.5rem auto;
     overflow: hidden;
@@ -220,7 +198,6 @@ body{
 
 /* imagem dos criadores */
 .creators img {
-    margin-top: 10%;
     padding: 1rem 0;
     width: 100px;
     height: 100px;
@@ -228,7 +205,6 @@ body{
 
 /* div separando cada criador */
 .ator {
-    width: 30%;
     padding: 0 1.5rem;
 }
 
@@ -240,95 +216,6 @@ body{
 
 /* container inscreva-se */
 .sub {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-/* containes de inscrição de usuarios */
-.user {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(12, 245, 116, 1);
-    margin-top: 5%;
-    width: 40%;
-    height: 500px;
-    border-radius: 20px 0px 0px 20px;
-}
-
-/* texto chamada */
-.user h2 {
-    width: 80%;
-    font-size: 50px;
-    color: white;
-}
-
-/* texto explicativo */
-.user p {
-    width: 80%;
-    font-size: 24px;
-    color: white;
-}
-
-/* botão */
-.user a {
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    padding: 15px 30px;
-    background-color: rgba(123, 44, 191, 1);
-    border: 2px solid rgba(123, 44, 191, 1);
-    border-radius: 30px;
-    margin-bottom: 20px;
-}
-
-/* div inscrição de programadores */
-.new-creator {
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(123, 44, 191, 1);
-    margin-top: 5%;
-    width: 40%;
-    height: 500px;
-    border-radius: 0px 20px 20px 0px;
-}
-
-/* texto chamada */
-.new-creator h2 {
-    width: 80%;
-    font-size: 50px;
-    color: white;
-}
-
-/* texto explicativo */
-.new-creator p {
-    width: 80%;
-    font-size: 24px;
-    color: white;
-}
-
-/* botão */
-.new-creator a {
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    padding: 15px 30px;
-    background-color: rgba(12, 245, 116, 1);
-    border: 2px solid rgba(12, 245, 116, 1);
-    border-radius: 30px;
-    margin-bottom: 20px;
     max-width: 80%;
     margin: 0 auto;
     display: flex;
