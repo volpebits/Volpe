@@ -24,6 +24,7 @@
 /* texto de copyright */
 #foot p {
     font-size: 2.5vmin;
+    margin: 0;
     color: white;
 }
 
