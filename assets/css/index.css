@@ -96,7 +96,7 @@ body{
 
 /* carrossel de imagens */
 .container-carousel {
-    padding: 1rem 0;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
