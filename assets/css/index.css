@@ -61,7 +61,8 @@ body{
 /* container imagem em alta */
 .recomendation {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     width: 80%;
     margin: 5% 10%;
 }
