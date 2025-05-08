@@ -102,8 +102,10 @@ body{
 }
 
 /* div texto do carrosel de imagens */
-.text-carousel {
+
+.container-carousel{
     width: 80%;
+    margin: 0 auto;
 }
 
 /* titulo do carrosel */
@@ -118,51 +120,11 @@ body{
     color: white;
 }
 
-/* formato e tamanho do carrosel */
-.carousel {
-    width: 80%;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-/* imagens do carrosel */
-.carousel img {
-    width: 100%;
-    object-fit: contain;
-}
-
-/* animação do carrossel */
-.carousel-track {
-    display: flex;
-    width: 100%;
-    animation: slide 9s infinite;
-}
-
-/* efeito da animação */
-@keyframes slide {
-
-    0%,
-    33% {
-        transform: translateX(0);
-    }
-
-    36%,
-    66% {
-        transform: translateX(-100%);
-    }
-
-    69%,
-    99% {
-        transform: translateX(-200%);
-    }
-}
-
-/* fim do carrossel */
-
 /* container por tras do controle */
 
 /* titulo do container */
 .text-control {
+    padding: 1rem 0;
     width: 80%;
 }
 
@@ -187,8 +149,9 @@ body{
 
 /* div dos criadores */
 .creators {
+    padding: 1rem 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 80%;
     margin: 1.5rem auto;
     overflow: hidden;
@@ -198,14 +161,16 @@ body{
 
 /* imagem dos criadores */
 .creators img {
-    padding: 1rem 0;
     width: 100px;
     height: 100px;
 }
 
 /* div separando cada criador */
 .ator {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .creators p {
@@ -216,12 +181,12 @@ body{
 
 /* container inscreva-se */
 .sub {
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 0 5vmin 5vmin 5vmin;
+    padding: 1rem 0;
 }
 
 /* formato dos dois blocos */
