@@ -20,57 +20,56 @@
     </div>
 
     <div class="backgroundEffect">
-        <div class="container-fluid right-align-container">
-            <div class="container">
-                <div class="welcome-message">
-                  Bem-vindo ao Volpe - Sua loja de jogos nacionais
-                </div>
-                <img src="https://w7.pngwing.com/pngs/541/949/png-transparent-mr-potato-head-illustration-mr-potato-head-mrs-potato-head-lelulugu-toy-the-walt-disney-company-isabel-child-hand-cartoon-thumbnail.png" alt="Imagem jogador" class="volpe-image">
-              </div>
-            <div class="login-layout d-flex align-items-center justify-content-center gap-5">
-
-                <!-- CARD LOGIN -->
-                <div id="back" class="card shadow-lg">
-                    <div id="cont" class="card p-4" style="width: 100%; max-width: 420px;">
-                        <h2 id="title" class="text-center fs-1 mb-4">Bem-Vindo ao Volpe</h2>
-                        <button type="submit" class="form-control mb-3">
-                            <img src="/assets/images/simbolo-do-google.png" alt=" image Google" />
-                            Entre com sua conta Google
-                        </button>
-                        <span class="d-flex align-items-center text-light pb-2">
-                            <hr class="flex-grow-1 me-2" />
-                            Ou entre com seu E-mail
-                            <hr class="flex-grow-1 ms-2" />
-                        </span>
-                        <form class="text-light">
-                            <div class="mb-3">
-                                <label for="email" class="form-label">E-mail</label>
-                                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"
-                                    required />
-                            </div>
-                            <div class="pb-2">
-                                <label for="password" class="form-label">Senha</label>
-                                <input type="password" class="form-control bg-none disabled" id="password"
-                                    placeholder="Digite sua senha" required />
-                                <div class="p-2 flex-wrap">
-                                    <input type="checkbox" class="form-check-input" /> Lembrar de mim
-                                    <a href="/pages/forgotPassword.html" class="forgot text-decoration-none">Esqueceu
-                                        sua senha?</a>
+        <div id = "container" class="container d-flex align-items-center justify-content-around p-5">
+            <div class="welcome-message d-flex flex-column align-items-center text-center">
+                <h2 class="display-4 text-light fw-bold">Bem-vindo ao Volpe - Sua loja de jogos nacionais</h2> 
+                <img class = "image-fluid w-50 py-2" src="/assets/images/personagem_gamer_final-removebg-preview.png" alt="Imagem jogador"
+                    class="volpe-image">
+            </div>
+                <div class="login-layout d-flex align-items-center justify-content-center">
+                    <!-- CARD LOGIN -->
+                    <div id="back" class="card shadow-lg">
+                        <div id="cont" class="card p-4"">
+                            <h2 id="title" class="text-center fs-1 mb-4">Bem-Vindo ao Volpe</h2>
+                            <button type="submit" class="form-control mb-3">
+                                <img src="/assets/images/simbolo-do-google.png" alt=" image Google" />
+                                Entre com sua conta Google
+                            </button>
+                            <span class="d-flex align-items-center text-light pb-2">
+                                <hr class="flex-grow-1 me-2" />
+                                Ou entre com seu E-mail
+                                <hr class="flex-grow-1 ms-2" />
+                            </span>
+                            <form class="text-light">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"
+                                        required />
                                 </div>
-                                <button type="submit" class="btn btn-success w-100">Entrar</button>
+                                <div class="pb-2">
+                                    <label for="password" class="form-label">Senha</label>
+                                    <input type="password" class="form-control bg-none disabled" id="password"
+                                        placeholder="Digite sua senha" required />
+                                    <div class="p-2 flex-wrap">
+                                        <input type="checkbox" class="form-check-input" /> Lembrar de mim
+                                        <a href="/pages/forgotPassword.html"
+                                            class="forgot text-decoration-none">Esqueceu
+                                            sua senha?</a>
+                                    </div>
+                                    <button type="submit" class="btn btn-success w-100">Entrar</button>
+                                </div>
+                            </form>
+                            <div class="text-center pt-2 text-light">
+                                <span>Não tem uma conta? <a href="/pages/register.html"
+                                        class="sing-up ps-1 text-decoration-none">Cadastre-se</a></span>
                             </div>
-                        </form>
-                        <div class="text-center pt-2 text-light">
-                            <span>Não tem uma conta? <a href="/pages/register.html"
-                                    class="sing-up ps-1 text-decoration-none">Cadastre-se</a></span>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </div>
-
     <div id="footer">
         <!-- rodapé -->
     </div>

@@ -6,34 +6,34 @@
 }
 
 .login-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  gap: 60px;
-  padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 60px;
+    padding: 20px;
 }
 
 .login-image img {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
 }
 
 .login-image img:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .login-card .card {
-  background-color: #8120a1;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-  width: 100%;
-  max-width: 400px;
+    background-color: #8120a1;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
 }
 
 .right-align-container {
@@ -41,13 +41,14 @@
     justify-content: flex-end;
     align-items: center;
     height: 100vh;
-    padding-right: 5vw; /* Espaço da borda direita */
+    padding-right: 5vw;
+    /* Espaço da borda direita */
 }
 
 
 #back {
     padding: 2rem;
-    background-color:rgb(255, 255, 255, 20%);
+    background-color: rgb(255, 255, 255, 20%);
     box-shadow: 20px 20px 30px 10px rgb(0, 0, 0, 50%);
 }
 
@@ -62,6 +63,7 @@
     -webkit-text-fill-color: transparent;
     color: transparent;
 }
+
 .login-layout {
     display: flex;
     align-items: center;
@@ -69,7 +71,8 @@
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box;
-    justify-content: center; /* centraliza tudo horizontalmente */
+    justify-content: center;
+    /* centraliza tudo horizontalmente */
 }
 
 .login-image img {
@@ -79,9 +82,11 @@
     border-radius: 16px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease;
-    margin-left: -60px; /* puxa a imagem 20px pra esquerda */
+    margin-left: -60px;
+    /* puxa a imagem 20px pra esquerda */
 }
-button img{
+
+button img {
     height: 1.2rem;
     padding-right: 1.3rem;
 }
@@ -103,4 +108,10 @@ button[type="submit"] {
 .forgot,
 .sing-up {
     color: #0CF574;
+}
+
+@media (max-width: 1000px) {
+    #container{
+        flex-direction: column;
+    }
 }
