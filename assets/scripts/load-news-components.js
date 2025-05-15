@@ -35,13 +35,13 @@ function gerarCarrossel(noticias) {
 
         item.innerHTML = `
         <a href="news-full.html?id=${index}" style="color: inherit; text-decoration: none;">
-            <img src="${noticia.imagem}" 
+            <img src="${noticia.imagem}"
             class="d-block w-100" 
             alt="${noticia.titulo}" 
             style="height: 400px; object-fit: cover;">
-            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
-            <h5>${noticia.titulo}</h5>
-            <p>${noticia.texto.slice(0, 100)}...</p>
+            <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-3">
+                <h5>${noticia.titulo}</h5>
+                <p>${noticia.texto.slice(0, 100)}...</p>
             </div>
         </a>
     `;
