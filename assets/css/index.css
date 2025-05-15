@@ -1,7 +1,7 @@
 /* primeiro container de informações */
 
-body{
-    background-color: #222 ;
+body {
+    background-color: #333;
 }
 
 .container {
@@ -26,9 +26,11 @@ body{
 
 /* titulo da pagina */
 .text-content h1 {
-    font-size: 9vmin;
-    color: rgba(58, 12, 163, 1);
+    font-size: 10vmin;
     margin: 0;
+    background: linear-gradient(0deg, #1845ad, #721cbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* informações */
@@ -105,7 +107,7 @@ body{
 
 /* div texto do carrosel de imagens */
 
-.container-carousel{
+.container-carousel {
     width: 80%;
     margin: 0 auto;
 }

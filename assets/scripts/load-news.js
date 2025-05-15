@@ -29,10 +29,10 @@ function exibirNoticia(noticia) {
 
     container.innerHTML = `
     <div class="noticia-completa col-8 mx-auto p-2">
-            <h1 class="text-center my-3">${noticia.titulo}</h1>
+            <h1 class="text-center my-3 text-light fw-bold">${noticia.titulo}</h1>
             <img class="image-fluid col-12 rounded" src="${noticia.imagem}" alt="${noticia.titulo}" class="img-fluid mb-3" >
-            <p class = "fs-5 my-3">${noticia.texto.replace(/\n/g, "<br>")}</p>
-            <a class="btn btn-secondary my-3" href="news.html">← Voltar</a>
+            <p class = "fs-5 my-3 text-light">${noticia.texto.replace(/\n/g, "<br>")}</p>
+            <a class="btn btn-news my-3" href="news.html">← Voltar</a>
         </div>
     `;
 }

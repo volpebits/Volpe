@@ -69,7 +69,7 @@ function gerarCards(noticias) {
                 style="width: 100%; height: 150px; object-fit: cover;"
             >
             <h3 class="fs-5 game-text m-0 mt-3">${noticia.titulo}</h3>
-            <a href="news-full.html?id=${realIndex}" class="btn btn-success mt-3">Ler mais</a>
+            <a href="news-full.html?id=${realIndex}" class="btn-news btn fw-bold mt-3">Ler mais</a>
         `;
 
 

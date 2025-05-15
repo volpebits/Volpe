@@ -1,6 +1,6 @@
 /* Primeiro container */
 body {
-    background-color: #222;
+    background-color: #333;
 }
 .container {
     height: 100vh;
@@ -17,9 +17,6 @@ body {
 .video-container {
     min-width: 25%;
     height: 90vh;
-    /* removi para tirar o excesso de informção */
-    /* border: 10px solid transparent;
-    border-image: linear-gradient(to left, rgba(12, 245, 116, 1), rgba(123, 44, 191, 1)) 1; */
 }
 
 /* frame do video */
@@ -35,7 +32,9 @@ body {
     font-size: 8vmin;
     margin: 0;
     text-align: center;
-    color: white;
+    background: linear-gradient(0deg, #1845ad, #721cbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* subtitulo */
@@ -46,6 +45,10 @@ body {
     color: white;
 }
 
+hr{
+    width: 80%;
+    border-color: #111;
+}
 /* fim do primeiro container */
 
 /* info game */

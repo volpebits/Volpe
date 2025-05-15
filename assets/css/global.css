@@ -18,3 +18,8 @@ body {
   background: rgb(12, 245, 116);
   background: linear-gradient(153deg, rgba(12, 245, 116, 1) 18%, rgba(123, 44, 191, 1) 69%);
 }
+
+.background{
+  min-width: 100%;
+  background-color: #222;
+}
