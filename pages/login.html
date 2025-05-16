@@ -4,70 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="website icon" type="png" href="../assets/icons/logo 2.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Flip Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/login.css">
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/login.css">
 </head>
 
 <body>
 
-    <div id="header">
-        <!-- cabeçalho -->
-    </div>
-
+    <header id="header"></header>
     <div class="backgroundEffect">
-        <div class="container-fluid d-flex justify-content-center align-items-center vh-100">
+        <div id="container" class="container d-flex align-items-center justify-content-around p-5">
+            <div class="welcome-message d-flex flex-column align-items-center text-center w-50">
+                <h2 class="display-4 text-light fw-bold">Bem-vindo ao Volpe - Sua loja de jogos nacionais</h2>
+                <img class="image-fluid py-2" src="/assets/images/personagem_gamer_final-removebg-preview.png"
+                    alt="Imagem jogador" class="volpe-image">
+            </div>
             <div id="back" class="card">
-                <div id="cont" class="card p-4 " style="width: 100%; max-width: 400px;">
-                    <h2 id="title" class="text-center fs-1 mb-4">Volpe</h2>
-                    <button type="submit" class="form-control mb-3"><img src="/assets/images/simbolo-do-google.png"
-                            alt=" image Google">Entre com sua conta Google</button>
-                    <span class="d-flex align-items-center text-light pb-2">
-                        <hr class="flex-grow-1 me-2">
-                        Ou entre com seu E-mail
-                        <hr class="flex-grow-1 ms-2">
-                    </span>
-                    <form class="text-light">
-                        <div class="mb-3">
-                            <label for="email" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"
-                                required>
+            <div class="login-layout" id="login-layout">
+                    <div id="cont">
+                        <div class="face front">
+                            <h2 id="title" class="text-center fs-1 mb-4">Bem-Vindo ao Volpe</h2>
+                            <button type="submit" class="mb-3">
+                                <img src="/assets/images/simbolo-do-google.png" alt=" image Google" />
+                                <span>Entre com sua conta Google</span>
+                            </button>
+                            <span class="d-flex align-items-center text-light pb-2">
+                                Ou entre com seu E-mail
+                            </span>
+                            <form class="text-light">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"
+                                        required />
+                                </div>
+                                <div class="pb-2">
+                                    <label for="password" class="form-label">Senha</label>
+                                    <input type="password" class="form-control bg-none disabled" id="password"
+                                        placeholder="Digite sua senha" required />
+                                    <div class="d-flex justify-content-around align-items-center py-2">
+                                        <input type="checkbox" class="form-check-input" /> Lembrar de mim
+                                        <a href="/pages/forgotPassword.html"
+                                            class="forgot text-decoration-none">Esqueceu
+                                            sua senha?</a>
+                                    </div>
+                                    <button type="submit" class="my-2 w-100">Entrar</button>
+                                </div>
+                            </form>
+                            <p>Não tem uma conta? <a href="#" onclick="flipCard()">Cadastre-se</a></p>
                         </div>
-                        <div class="pb-2">
-                            <label for="password" class="form-label">Senha</label>
-                            <input type="password" class="form-control bg-none disabled" id="password"
-                                placeholder="Digite sua senha" required>
-                            <div class="p-2 flex-wrap">
-                                <input type="checkbox" class="form-check-input"> Lembrar de mim
-                                <a href="/pages/forgotPassword.html" class="forgot text-decoration-none">Esqueceu sua
-                                    senha?</a>
-                            </div>
-                            <button type="submit" class="btn btn-success w-100">Entrar</button>
-                    </form>
-                    <div class="text-center pt-2 text-light">
-                        <span>Não tem uma conta? <a href="/pages/register.html"
-                                class="sing-up ps-1 text-decoration-none ">Cadastre-se</a></span>
+                        <div class="face back">
+                            <h2>Crie sua Conta</h2>
+                            <form>
+                                <label for="nomeCadastro">Nome</label>
+                                <input type="text" id="nomeCadastro" placeholder="Digite seu nome" required>
+
+                                <label for="emailCadastro">E-mail</label>
+                                <input type="email" id="emailCadastro" placeholder="Digite seu e-mail" required>
+
+                                <label for="senhaCadastro">Senha</label>
+                                <input type="password" id="senhaCadastro" placeholder="Digite sua senha" required>
+
+                                <label for="confirmarSenha">Confirmar Senha</label>
+                                <input type="password" id="confirmarSenha" placeholder="Confirme sua senha" required>
+
+                                <button class="my-2" type="submit">Cadastrar</button>
+                            </form>
+                            <p>Já tem uma conta? <a href="#" onclick="flipCard()">Entrar</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="footer">
-        <!-- rodapé -->
-    </div>
-
+    <footer id="footer"></footer>
 
     <script src="/assets/scripts/load-components.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
-        
+    <script>
+        function flipCard(event) {
+            event.preventDefault();
+            document.getElementById('login-layout').classList.toggle('flipped');
+        }
+
+        document.querySelectorAll('a[href="#"]').forEach(link => {
+            link.addEventListener('click', flipCard);
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- carrega Vlibras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -77,7 +104,7 @@
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
     </script>
     <!-- Fim vlibras -->
 </body>
