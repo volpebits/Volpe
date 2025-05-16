@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flip Login</title>
+    <title>Login</title>
+    <link rel="website icon" type="png" href="../assets/icons/logo 2.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/css/login.css">
     <link rel="stylesheet" href="/assets/css/global.css">
@@ -16,63 +17,68 @@
 
     <header id="header"></header>
     <div class="backgroundEffect">
-        <div id="container" class="container d-flex align-items-center justify-content-around p-5">
+        <div id="container" class="container d-flex align-items-center justify-content-around py-5">
             <div class="welcome-message d-flex flex-column align-items-center text-center w-50">
                 <h2 class="display-4 text-light fw-bold">Bem-vindo ao Volpe - Sua loja de jogos nacionais</h2>
                 <img class="image-fluid py-2" src="/assets/images/personagem_gamer_final-removebg-preview.png"
                     alt="Imagem jogador" class="volpe-image">
             </div>
-            <div id="back" class="card">
-            <div class="login-layout" id="login-layout">
-                    <div id="cont">
-                        <div class="face front">
-                            <h2 id="title" class="text-center fs-1 mb-4">Bem-Vindo ao Volpe</h2>
-                            <button type="submit" class="mb-3">
-                                <img src="/assets/images/simbolo-do-google.png" alt=" image Google" />
-                                <span>Entre com sua conta Google</span>
-                            </button>
-                            <span class="d-flex align-items-center text-light pb-2">
-                                Ou entre com seu E-mail
-                            </span>
-                            <form class="text-light">
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">E-mail</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"
-                                        required />
-                                </div>
-                                <div class="pb-2">
-                                    <label for="password" class="form-label">Senha</label>
-                                    <input type="password" class="form-control bg-none disabled" id="password"
-                                        placeholder="Digite sua senha" required />
-                                    <div class="d-flex justify-content-around align-items-center py-2">
-                                        <input type="checkbox" class="form-check-input" /> Lembrar de mim
-                                        <a href="/pages/forgotPassword.html"
-                                            class="forgot text-decoration-none">Esqueceu
-                                            sua senha?</a>
+            <div class="form-cont">
+                <div id="back" class="card">
+                    <div class="login-cont" id="login-layout">
+                        <div id="cont">
+                            <div class="face front">
+                                <h2 id="title" class="text-center fs-2 py-3">Bem-Vindo ao Volpe</h2>
+                                <button type="submit" class="mb-3">
+                                    <img src="/assets/images/simbolo-do-google.png" alt=" image Google" />
+                                    <span>Entre com sua conta Google</span>
+                                </button>
+                                <span class="d-flex align-items-center text-light pb-2">
+                                    Ou entre com seu E-mail
+                                </span>
+                                <form class="text-light">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">E-mail</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="Digite seu e-mail" required />
                                     </div>
-                                    <button type="submit" class="my-2 w-100">Entrar</button>
-                                </div>
-                            </form>
-                            <p>Não tem uma conta? <a href="#" onclick="flipCard()">Cadastre-se</a></p>
-                        </div>
-                        <div class="face back">
-                            <h2>Crie sua Conta</h2>
-                            <form>
-                                <label for="nomeCadastro">Nome</label>
-                                <input type="text" id="nomeCadastro" placeholder="Digite seu nome" required>
+                                    <div class="pb-2">
+                                        <label for="password" class="form-label">Senha</label>
+                                        <input type="password" class="form-control bg-none disabled" id="password"
+                                            placeholder="Digite sua senha" required />
+                                        <div id="remember" class="d-flex justify-content-between align-items-center gap-2 py-2">
+                                            <div class="checkbox d-flex align-items-center gap-2">
+                                                <input id="checkbox" type="checkbox" class="form-check-input" /> Lembrar de mim
+                                            </div>
+                                            <a href="/pages/forgotPassword.html"
+                                                class="forgot text-decoration-none">Esqueceu
+                                                sua senha?</a>
+                                        </div>
+                                        <button type="submit" class="my-1 w-100">Entrar</button>
+                                    </div>
+                                </form>
+                                <p>Não tem uma conta? <a href="#" onclick="flipCard()">Cadastre-se</a></p>
+                            </div>
+                            <div class="face back">
+                                <h2>Crie sua Conta</h2>
+                                <form>
+                                    <label for="nomeCadastro">Nome</label>
+                                    <input type="text" id="nomeCadastro" placeholder="Digite seu nome" required>
 
-                                <label for="emailCadastro">E-mail</label>
-                                <input type="email" id="emailCadastro" placeholder="Digite seu e-mail" required>
+                                    <label for="emailCadastro">E-mail</label>
+                                    <input type="email" id="emailCadastro" placeholder="Digite seu e-mail" required>
 
-                                <label for="senhaCadastro">Senha</label>
-                                <input type="password" id="senhaCadastro" placeholder="Digite sua senha" required>
+                                    <label for="senhaCadastro">Senha</label>
+                                    <input type="password" id="senhaCadastro" placeholder="Digite sua senha" required>
 
-                                <label for="confirmarSenha">Confirmar Senha</label>
-                                <input type="password" id="confirmarSenha" placeholder="Confirme sua senha" required>
+                                    <label for="confirmarSenha">Confirmar Senha</label>
+                                    <input type="password" id="confirmarSenha" placeholder="Confirme sua senha"
+                                        required>
 
-                                <button class="my-2" type="submit">Cadastrar</button>
-                            </form>
-                            <p>Já tem uma conta? <a href="#" onclick="flipCard()">Entrar</a></p>
+                                    <button class="my-2" type="submit">Cadastrar</button>
+                                </form>
+                                <p>Já tem uma conta? <a href="#" onclick="flipCard()">Entrar</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
