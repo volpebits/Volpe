@@ -11,6 +11,7 @@
 
 .menu-toggle span {
     background: white;
+    color-scheme: light;
     height: 3px;
     border-radius: 2px;
     transition: 0.3s;
