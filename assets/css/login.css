@@ -1,22 +1,18 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: Arial, sans-serif;
 }
 
 body {
     height: 100vh;
     margin: 0;
-    background-color: #1a1a1a;
-}
-
-.login-layout {
-    perspective: 1000px;
 }
 
 #cont {
-    width: 380px;
+    width: 400px;
     min-height: 540px;
     position: relative;
     transform-style: preserve-3d;
@@ -63,6 +59,7 @@ input, button {
 
 button {
     background-color: #0CF574;
+    width: 100%;
     color: black;
     cursor: pointer;
 }
@@ -75,6 +72,7 @@ a {
 #back {
     padding: 2rem;
     background-color: rgb(255, 255, 255, 20%);
+    border-radius: 20px;
     box-shadow: 20px 20px 30px 10px rgb(0, 0, 0, 50%);
 }
 
@@ -88,10 +86,8 @@ a {
 
 .login-layout {
     width: 100%;
-    margin: 0 auto;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
     justify-content: center;
 }
 
