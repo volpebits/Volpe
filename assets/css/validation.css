@@ -1,0 +1,24 @@
+/* pagina de confirmação de cadastro */
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+/* titulo da pagina */
+h1{
+    color: white;
+    font-size: 16vmin;
+    padding: 0 1.5rem;
+    margin: 0;
+}
+/* informaçoes */
+h2{
+    color: white;
+    font-size: 6vmin;
+    padding: 0 1.5rem;
+}

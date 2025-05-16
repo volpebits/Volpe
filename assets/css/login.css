@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-size: 15px;
+}
+
+#back {
+    padding: 2rem;
+    background-color: rgb(255, 255, 255, 20%);
+    box-shadow: 20px 20px 30px 10px rgb(0, 0, 0, 50%);
+}
+
+#cont {
+    background-color: rgba(123, 44, 191, 1);
+}
+
+#title {
+    background: linear-gradient(90deg, rgba(67, 234, 128, 1), rgba(8, 248, 212, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+button img {
+    height: 1.2rem;
+    padding-right: 1.3rem;
+}
+
+/* cores fora do Bootstrap */
+
+input[type="email"] {
+    background-color: rgba(12, 245, 116, 1)
+}
+
+input[type="password"] {
+    background-color: rgba(12, 245, 116, 1)
+}
+
+button[type="submit"] {
+    background-color: rgba(12, 245, 116, 1)
+}
+
+.forgot,
+.sing-up {
+    color: #0CF574;
+}

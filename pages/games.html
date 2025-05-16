@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <link rel="website icon" type="png" href="../assets/icons/logo 2.png" />
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/games.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <!-- carrega o header -->
+    </div>
+
+    <div class="background">
+        <!-- contéudo da página -->
+        <div class="container">
+            <div class="video-container"><video autoplay controls muted
+                    src="../assets/video/roguesnail_54358480.mp4"></video></div>
+            <div class="text-container">
+                <h1>Hell Clock: Reescreva a História na Guerra de Canudos</h1>
+                <h2>Mergulhe em um ARPG roguelite desafiador que combina ação intensa e narrativa envolvente.</h2>
+            </div>
+        </div>
+        <hr>
+        <!-- informações do jogo -->
+        <div class="info-game">
+            <p class="info-text">Em Hell Clock, você assume o papel de Pajeú, um ex-escravo e guerreiro destemido,
+                determinado a resgatar
+                seu mentor, Antônio Conselheiro, das forças sobrenaturais que assolam a região. Este jogo oferece uma
+                experiência única ao combinar elementos de ARPG com mecânicas de roguelite, proporcionando combates
+                intensos e desafiadores.
+                Com uma narrativa profunda ambientada em uma versão sombria da Guerra de Canudos, os jogadores
+                enfrentarão demônios e criaturas místicas enquanto exploram masmorras traiçoeiras. A dublagem em
+                português e a riqueza de detalhes culturais tornam Hell Clock uma jornada imperdível para os fãs de ação
+                e história.</p>
+            <img class="img-game" <div src="../assets/images/frame-games.webp" alt="hell clock image">
+        </div>
+    </div>
+
+    <!-- mais jogos -->
+    <div class="more-games">
+        <div class="text-more-games">
+            <h2>Explore também outros trabalhos incríveis!</h2>
+            <div id="cardsGames">
+                <!-- preenchido atráves de js -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- rodapé -->
+    <footer id="footer">
+        <!-- carregado atráves de js -->
+    </footer>
+
+    <script src="/assets/scripts/load-components.js"></script>
+    <script src="/assets/scripts/loadGames.js"></script>
+
+    <!-- carrega Vlibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- Fim vlibras -->
+</body>
+
+</html>
