@@ -11,7 +11,7 @@
 }
 
 .menu-toggle span {
-    background: white;
+    background-color: #ffffff !important;
     height: 3px;
     border-radius: 2px;
     transition: 0.3s;
@@ -78,7 +78,7 @@
     transition: transform 0.4s ease;
 }
 
-#login{
+#login {
     margin: 0;
 }
 
@@ -136,7 +136,7 @@
         top: 20px;
     }
 
-    #arrow{
+    #arrow {
         display: none;
     }
 
