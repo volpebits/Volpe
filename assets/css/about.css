@@ -1,15 +1,13 @@
-/* Container principal */
-#container_about {
+/* Conteúdo "About" */
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
-}
-
-/* Conteúdo "About" */
-.container {
     width: 80%;
+    min-height: 100vh;
     margin: auto;
+    padding: 0;
 }
 
 /* titulo da página */
@@ -30,13 +28,17 @@ p {
     color: white;
 }
 
-.avatars img{
+.avatars img {
     width: 40%;
     padding: 1rem 0;
 }
 
-@media(max-width:1000px){
-    .avatars img{
+@media(max-width:1000px) {
+    .avatars img {
         width: 80%;
-    } 
+    }
+
+    h1{
+        padding-top: 0px;
+    }
 }
