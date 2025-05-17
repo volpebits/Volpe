@@ -55,8 +55,8 @@ function gerarCards(noticias) {
 
     noticias.forEach((noticia, index) => {
         const card_div = document.createElement('div');
-        card_div.classList.add('card', 'border-0', 'd-flex', 'justify-content-between', 'text-center', 'mb-3', 'p-2');
-        card_div.style.width = '250px';
+        card_div.classList.add('card', 'border-0', 'd-flex', 'justify-content-between', 'text-center', 'p-2');
+        card_div.style.width = '300px';
 
         // Index do card deve considerar que começa a partir do 3º item do array original
         const realIndex = index + 3;
