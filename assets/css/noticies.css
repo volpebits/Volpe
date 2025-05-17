@@ -18,3 +18,8 @@
     padding: 15px;
     box-sizing: border-box;
 }
+
+
+.card{
+    min-height: 350px;
+}
