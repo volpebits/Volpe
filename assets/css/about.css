@@ -34,11 +34,20 @@ p {
 }
 
 @media(max-width:1000px) {
+    .avatars {
+        display: flex;
+        justify-content: center;
+    }
+
     .avatars img {
         width: 80%;
     }
 
-    h1{
-        padding-top: 0px;
+    h1 {
+        padding: 20px 0px;
+    }
+
+    p {
+        font-size: 4vmin;
     }
 }
