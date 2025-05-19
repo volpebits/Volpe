@@ -1,0 +1,54 @@
+/* Conteúdo "About" */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0;
+}
+
+/* titulo da página */
+h1 {
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 10vmin;
+    font-weight: 600;
+    background: linear-gradient(90deg, #1845ad, #721cbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* informações nossa */
+p {
+    font-size: 3vmin;
+    color: white;
+}
+
+.avatars img {
+    width: 40%;
+    padding: 1rem 0;
+}
+
+@media(max-width:1000px) {
+    .avatars {
+        display: flex;
+        justify-content: center;
+    }
+
+    .avatars img {
+        width: 80%;
+    }
+
+    h1 {
+        padding: 20px 0px;
+        font-size: 11vmin;
+    }
+
+    p {
+        font-size: 4vmin;
+    }
+}

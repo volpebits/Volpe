@@ -1,0 +1,67 @@
+/* div do rodapé */
+
+#footer_container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #111;
+}
+
+#foot {
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 2vmin 0;
+}
+
+/* div que contém todos os itens */
+.about {
+    display: flex;
+    align-items: center;
+}
+
+/* texto de copyright */
+#foot p {
+    font-size: 2.5vmin;
+    margin: 0;
+    color: white;
+}
+
+/* div dos icones de redes sociais */
+.socialmedia {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/*tamanho dos icones*/
+.foot_icons {
+    width: 8vh;
+}
+
+/* animação dos icones */
+.foot_icons:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+
+@media (max-width: 1000px) {
+    #foot {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .foot_icons {
+        margin-top: 2vmin ;
+        width: 5vh;
+    }
+
+    #foot p {
+        font-size: 3vmin;
+        padding: 0;
+        color: white;
+        margin: 0;
+    }
+
+}
