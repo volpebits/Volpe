@@ -27,24 +27,6 @@ body {
     object-fit: cover;
 }
 
-/* titulo da pagina */
-.text-container h1 {
-    font-size: 8vmin;
-    margin: 0;
-    text-align: center;
-    background: linear-gradient(0deg, #1845ad, #721cbd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* subtitulo */
-.text-container h2 {
-    font-size: 4vmin;
-    margin: 0;
-    text-align: center;
-    color: white;
-}
-
 hr{
     width: 80%;
     border-color: #111;
@@ -88,13 +70,6 @@ hr{
     flex-direction: column;
 }
 
-/* subtitulo da sessão */
-.more-games h2 {
-    color: white;
-    margin: 0;
-    font-size: 8vmin;
-}
-
 /* Container para cada imagem */
 .more-container {
     width: 100%;
@@ -111,12 +86,6 @@ hr{
     border-radius: 10px;
 }
 
-.more-container h3 {
-    color: white;
-    font-size: 3vmin;
-    margin: 0;
-    width: 80%;
-}
 
 @media(max-width: 1000px) {
     .container {
@@ -139,6 +108,7 @@ hr{
     .img-game{
         width: 80%;
         height: auto;
+        padding: 1rem 0;
     }
 
     .info-game {
@@ -146,11 +116,6 @@ hr{
         align-items: center;
         justify-content: center;
         height: auto;   
-    }
-
-    .info-text{
-        text-align: center;
-        font-size: 3vmin;
     }
 
     .more-container{

@@ -24,22 +24,6 @@ body {
     padding: 20px;
 }
 
-/* titulo da pagina */
-.text-content h1 {
-    font-size: 10vmin;
-    margin: 0;
-    background: linear-gradient(0deg, #1845ad, #721cbd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* informações */
-.text-content h2 {
-    font-size: 5vmin;
-    color: white;
-    margin: 0;
-}
-
 /* botão saiba mais */
 #find-more {
     text-align: center;
@@ -60,42 +44,6 @@ body {
 
 /* fim do container  */
 
-/* container imagem em alta */
-.recomendation {
-    position: relative;
-    /* display: inline-block; */
-    display: none;
-    width: 80%;
-    margin: 5% 10%;
-}
-
-/* formato da imagem */
-#recomendation-img {
-    border-radius: 10px;
-    width: 100%;
-    display: block;
-}
-
-/* texto do elemento recomendado */
-.text_legend {
-    color: white;
-    font-size: 2vmin;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 0 0 10% 10%;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-/* ação de hover */
-.recomendation:hover .text_legend {
-    opacity: 1;
-}
-
 /* carrossel de imagens */
 .container-carousel {
     padding: 2rem 0;
@@ -112,29 +60,12 @@ body {
     margin: 0 auto;
 }
 
-/* titulo do carrosel */
-.text-carousel h2 {
-    font-size: 9vmin;
-    color: white;
-}
-
-/* texto secudanrio do carrosel */
-.text-carousel h3 {
-    font-size: 5vmin;
-    color: white;
-}
-
 /* container por tras do controle */
 
 /* titulo do container */
 .text-control {
     padding: 1rem 0;
     width: 80%;
-}
-
-.text-control h2 {
-    font-size: 9vmin;
-    color: white;
 }
 
 .container-control {
@@ -145,15 +76,9 @@ body {
     justify-content: center;
 }
 
-/* texto secundario */
-.text-control h3 {
-    font-size: 5vmin;
-    color: white;
-}
-
 /* div dos criadores */
 .creators {
-    padding: 1rem 0;
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -177,12 +102,6 @@ body {
     justify-content: space-between;
 }
 
-.creators p {
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-
 /* container inscreva-se */
 .sub {
     width: 80%;
@@ -199,26 +118,11 @@ body {
     flex: 1 1 400px;
     display: flex;
     flex-direction: column;
-    padding: 0 1.5rem;
+    padding: 2rem;
     align-items: center;
     text-align: center;
     gap: 30px;
     justify-content: space-between;
-}
-
-/* texto chamada */
-.sub h2 {
-    margin: 1rem 0;
-    font-size: 7vmin;
-    font-weight: 900;
-}
-
-/* texto explicativo */
-.sub p {
-    margin: 0;
-    font-size: 4vmin;
-    height: auto;
-    font-weight: 600;
 }
 
 /* botão */
@@ -281,12 +185,12 @@ body {
 
     /* imagem do topo */
     .image-home {
-        width: 80%;
+        width: 100%;
+        padding: 1.5rem;
     }
 
     #image-home {
-        width: 100%;
-        height: auto;
+        width: 70%;
     }
 
     /* div subs */

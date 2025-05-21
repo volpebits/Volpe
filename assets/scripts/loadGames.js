@@ -18,7 +18,7 @@ function gerarCards(games) {
         
         card_div.innerHTML = `
         <img src="${game.imagem}" alt="${game.alt}">
-        <h3 class="game-text">${game.legenda}</h3>
+        <p class="game-text">${game.legenda}</p>
         `;
         
         container.appendChild(card_div);
